@@ -1,0 +1,6175 @@
+fileFormatVersion: 2
+guid: c1c130299a0a30f4696dc5e08baa7b05
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1073719737228351805
+    second: world_flags_large_by_aitheras_d3ic0lo_0
+  - first:
+      213: -914421698744147678
+    second: world_flags_large_by_aitheras_d3ic0lo_1
+  - first:
+      213: 1936686952232735329
+    second: world_flags_large_by_aitheras_d3ic0lo_2
+  - first:
+      213: 6418210110851942242
+    second: world_flags_large_by_aitheras_d3ic0lo_3
+  - first:
+      213: 9195691308288508882
+    second: world_flags_large_by_aitheras_d3ic0lo_4
+  - first:
+      213: 7955080845121844296
+    second: world_flags_large_by_aitheras_d3ic0lo_5
+  - first:
+      213: -3131756538826806650
+    second: world_flags_large_by_aitheras_d3ic0lo_6
+  - first:
+      213: -2702343831646713432
+    second: world_flags_large_by_aitheras_d3ic0lo_7
+  - first:
+      213: 643995000898013422
+    second: world_flags_large_by_aitheras_d3ic0lo_8
+  - first:
+      213: 6448452768755223459
+    second: world_flags_large_by_aitheras_d3ic0lo_9
+  - first:
+      213: -7244645597443849619
+    second: world_flags_large_by_aitheras_d3ic0lo_10
+  - first:
+      213: -7075382680957489223
+    second: world_flags_large_by_aitheras_d3ic0lo_11
+  - first:
+      213: -1204770938748627519
+    second: world_flags_large_by_aitheras_d3ic0lo_12
+  - first:
+      213: 3542183462896867423
+    second: world_flags_large_by_aitheras_d3ic0lo_13
+  - first:
+      213: -8690616064770683087
+    second: world_flags_large_by_aitheras_d3ic0lo_14
+  - first:
+      213: -4247104880342032373
+    second: world_flags_large_by_aitheras_d3ic0lo_15
+  - first:
+      213: -5077677709298532927
+    second: world_flags_large_by_aitheras_d3ic0lo_16
+  - first:
+      213: -2530262142916555482
+    second: world_flags_large_by_aitheras_d3ic0lo_17
+  - first:
+      213: 1077635932219747846
+    second: world_flags_large_by_aitheras_d3ic0lo_18
+  - first:
+      213: 588578582821891046
+    second: world_flags_large_by_aitheras_d3ic0lo_19
+  - first:
+      213: 795788980862392509
+    second: world_flags_large_by_aitheras_d3ic0lo_20
+  - first:
+      213: 8178639747274405492
+    second: world_flags_large_by_aitheras_d3ic0lo_21
+  - first:
+      213: -2148787964971474461
+    second: world_flags_large_by_aitheras_d3ic0lo_22
+  - first:
+      213: -1446139073768418553
+    second: world_flags_large_by_aitheras_d3ic0lo_23
+  - first:
+      213: -226084349985542543
+    second: world_flags_large_by_aitheras_d3ic0lo_24
+  - first:
+      213: -9106486597553386471
+    second: world_flags_large_by_aitheras_d3ic0lo_25
+  - first:
+      213: 6170513268017530320
+    second: world_flags_large_by_aitheras_d3ic0lo_26
+  - first:
+      213: 993535894654014426
+    second: world_flags_large_by_aitheras_d3ic0lo_27
+  - first:
+      213: -2332368816236167037
+    second: world_flags_large_by_aitheras_d3ic0lo_28
+  - first:
+      213: 390117602954005905
+    second: world_flags_large_by_aitheras_d3ic0lo_29
+  - first:
+      213: -4392197365177698846
+    second: world_flags_large_by_aitheras_d3ic0lo_30
+  - first:
+      213: 6610795551518983741
+    second: world_flags_large_by_aitheras_d3ic0lo_31
+  - first:
+      213: 2932476170618029159
+    second: world_flags_large_by_aitheras_d3ic0lo_32
+  - first:
+      213: 5132927451074100043
+    second: world_flags_large_by_aitheras_d3ic0lo_33
+  - first:
+      213: 8453483926802248750
+    second: world_flags_large_by_aitheras_d3ic0lo_34
+  - first:
+      213: -6754066756098514638
+    second: world_flags_large_by_aitheras_d3ic0lo_35
+  - first:
+      213: -2697594640228217094
+    second: world_flags_large_by_aitheras_d3ic0lo_36
+  - first:
+      213: -3308861740233051573
+    second: world_flags_large_by_aitheras_d3ic0lo_37
+  - first:
+      213: -3241544723010986835
+    second: world_flags_large_by_aitheras_d3ic0lo_38
+  - first:
+      213: -7486186641897825879
+    second: world_flags_large_by_aitheras_d3ic0lo_39
+  - first:
+      213: 9145124456309895672
+    second: world_flags_large_by_aitheras_d3ic0lo_40
+  - first:
+      213: 4867979922857601435
+    second: world_flags_large_by_aitheras_d3ic0lo_41
+  - first:
+      213: -727731198090023027
+    second: world_flags_large_by_aitheras_d3ic0lo_42
+  - first:
+      213: 8141983346314833321
+    second: world_flags_large_by_aitheras_d3ic0lo_43
+  - first:
+      213: 1550704941007558899
+    second: world_flags_large_by_aitheras_d3ic0lo_44
+  - first:
+      213: 270827908204975866
+    second: world_flags_large_by_aitheras_d3ic0lo_45
+  - first:
+      213: -3552466676875894492
+    second: world_flags_large_by_aitheras_d3ic0lo_46
+  - first:
+      213: 5385029077267740085
+    second: world_flags_large_by_aitheras_d3ic0lo_47
+  - first:
+      213: 2007932272464389989
+    second: world_flags_large_by_aitheras_d3ic0lo_48
+  - first:
+      213: -7550554070147291024
+    second: world_flags_large_by_aitheras_d3ic0lo_49
+  - first:
+      213: -4834972529854454400
+    second: world_flags_large_by_aitheras_d3ic0lo_50
+  - first:
+      213: 5697163937888130687
+    second: world_flags_large_by_aitheras_d3ic0lo_51
+  - first:
+      213: 6909571789600556288
+    second: world_flags_large_by_aitheras_d3ic0lo_52
+  - first:
+      213: 3783550538528342348
+    second: world_flags_large_by_aitheras_d3ic0lo_53
+  - first:
+      213: 4424090762042543724
+    second: world_flags_large_by_aitheras_d3ic0lo_54
+  - first:
+      213: -6687850660772108796
+    second: world_flags_large_by_aitheras_d3ic0lo_55
+  - first:
+      213: 4935860564381645827
+    second: world_flags_large_by_aitheras_d3ic0lo_56
+  - first:
+      213: 3732790358970934584
+    second: world_flags_large_by_aitheras_d3ic0lo_57
+  - first:
+      213: -8851977228829345752
+    second: world_flags_large_by_aitheras_d3ic0lo_58
+  - first:
+      213: -1315067820979450408
+    second: world_flags_large_by_aitheras_d3ic0lo_59
+  - first:
+      213: -7310838361361474191
+    second: world_flags_large_by_aitheras_d3ic0lo_60
+  - first:
+      213: 5504930246595890619
+    second: world_flags_large_by_aitheras_d3ic0lo_61
+  - first:
+      213: 4538911574682563871
+    second: world_flags_large_by_aitheras_d3ic0lo_62
+  - first:
+      213: -1476513050315230692
+    second: world_flags_large_by_aitheras_d3ic0lo_63
+  - first:
+      213: -1350232313401192211
+    second: world_flags_large_by_aitheras_d3ic0lo_64
+  - first:
+      213: -2383655846486878857
+    second: world_flags_large_by_aitheras_d3ic0lo_65
+  - first:
+      213: 2614042216896392318
+    second: world_flags_large_by_aitheras_d3ic0lo_66
+  - first:
+      213: -2021632566363505374
+    second: world_flags_large_by_aitheras_d3ic0lo_67
+  - first:
+      213: -6764113669153083917
+    second: world_flags_large_by_aitheras_d3ic0lo_68
+  - first:
+      213: -2923559261932658600
+    second: world_flags_large_by_aitheras_d3ic0lo_69
+  - first:
+      213: 645602357783122937
+    second: world_flags_large_by_aitheras_d3ic0lo_70
+  - first:
+      213: -2243045189276715835
+    second: world_flags_large_by_aitheras_d3ic0lo_71
+  - first:
+      213: -590760058805004941
+    second: world_flags_large_by_aitheras_d3ic0lo_72
+  - first:
+      213: -1011264711096297820
+    second: world_flags_large_by_aitheras_d3ic0lo_73
+  - first:
+      213: -635912930619356037
+    second: world_flags_large_by_aitheras_d3ic0lo_74
+  - first:
+      213: 5425963439640831695
+    second: world_flags_large_by_aitheras_d3ic0lo_75
+  - first:
+      213: 5446470358558564850
+    second: world_flags_large_by_aitheras_d3ic0lo_76
+  - first:
+      213: 4001195247859265350
+    second: world_flags_large_by_aitheras_d3ic0lo_77
+  - first:
+      213: 2128256761560893462
+    second: world_flags_large_by_aitheras_d3ic0lo_78
+  - first:
+      213: -6939938119342427842
+    second: world_flags_large_by_aitheras_d3ic0lo_79
+  - first:
+      213: -4974104102079218035
+    second: world_flags_large_by_aitheras_d3ic0lo_80
+  - first:
+      213: -5250057838456544900
+    second: world_flags_large_by_aitheras_d3ic0lo_81
+  - first:
+      213: -1640937126042040643
+    second: world_flags_large_by_aitheras_d3ic0lo_82
+  - first:
+      213: -9101711935772779494
+    second: world_flags_large_by_aitheras_d3ic0lo_83
+  - first:
+      213: 7886387461349143549
+    second: world_flags_large_by_aitheras_d3ic0lo_84
+  - first:
+      213: -5301188834851031942
+    second: world_flags_large_by_aitheras_d3ic0lo_85
+  - first:
+      213: 7416220360082098901
+    second: world_flags_large_by_aitheras_d3ic0lo_86
+  - first:
+      213: -8060490320698219316
+    second: world_flags_large_by_aitheras_d3ic0lo_87
+  - first:
+      213: 6033133473725002264
+    second: world_flags_large_by_aitheras_d3ic0lo_88
+  - first:
+      213: 2146713941021195230
+    second: world_flags_large_by_aitheras_d3ic0lo_89
+  - first:
+      213: 8919903468117740873
+    second: world_flags_large_by_aitheras_d3ic0lo_90
+  - first:
+      213: 3560282239776220157
+    second: world_flags_large_by_aitheras_d3ic0lo_91
+  - first:
+      213: -1851399980507730052
+    second: world_flags_large_by_aitheras_d3ic0lo_92
+  - first:
+      213: -4924312182431655881
+    second: world_flags_large_by_aitheras_d3ic0lo_93
+  - first:
+      213: -1358117551295911417
+    second: world_flags_large_by_aitheras_d3ic0lo_94
+  - first:
+      213: 9000302581461131761
+    second: world_flags_large_by_aitheras_d3ic0lo_95
+  - first:
+      213: 23663544768245351
+    second: world_flags_large_by_aitheras_d3ic0lo_96
+  - first:
+      213: 4389936920099757868
+    second: world_flags_large_by_aitheras_d3ic0lo_97
+  - first:
+      213: -2548881143236318746
+    second: world_flags_large_by_aitheras_d3ic0lo_98
+  - first:
+      213: 4814933811840719584
+    second: world_flags_large_by_aitheras_d3ic0lo_99
+  - first:
+      213: 7923904956083987501
+    second: world_flags_large_by_aitheras_d3ic0lo_100
+  - first:
+      213: -9085695288669395590
+    second: world_flags_large_by_aitheras_d3ic0lo_101
+  - first:
+      213: -2727548326743718943
+    second: world_flags_large_by_aitheras_d3ic0lo_102
+  - first:
+      213: -4934754237044145716
+    second: world_flags_large_by_aitheras_d3ic0lo_103
+  - first:
+      213: 3033451611235092614
+    second: world_flags_large_by_aitheras_d3ic0lo_104
+  - first:
+      213: -6716857830796412031
+    second: world_flags_large_by_aitheras_d3ic0lo_105
+  - first:
+      213: 2524239342388483657
+    second: world_flags_large_by_aitheras_d3ic0lo_106
+  - first:
+      213: 1732178298758537143
+    second: world_flags_large_by_aitheras_d3ic0lo_107
+  - first:
+      213: 436496533799915844
+    second: world_flags_large_by_aitheras_d3ic0lo_108
+  - first:
+      213: -6943413554991698926
+    second: world_flags_large_by_aitheras_d3ic0lo_109
+  - first:
+      213: 5454122593822707860
+    second: world_flags_large_by_aitheras_d3ic0lo_110
+  - first:
+      213: 8347095608143938812
+    second: world_flags_large_by_aitheras_d3ic0lo_111
+  - first:
+      213: 5495323748067050328
+    second: world_flags_large_by_aitheras_d3ic0lo_112
+  - first:
+      213: -2023647703854865049
+    second: world_flags_large_by_aitheras_d3ic0lo_113
+  - first:
+      213: -4636458608488213843
+    second: world_flags_large_by_aitheras_d3ic0lo_114
+  - first:
+      213: -4967006335105203124
+    second: world_flags_large_by_aitheras_d3ic0lo_115
+  - first:
+      213: -3255714140192028961
+    second: world_flags_large_by_aitheras_d3ic0lo_116
+  - first:
+      213: -991454405126047286
+    second: world_flags_large_by_aitheras_d3ic0lo_117
+  - first:
+      213: 6946809028474857147
+    second: world_flags_large_by_aitheras_d3ic0lo_118
+  - first:
+      213: 8063761614730777974
+    second: world_flags_large_by_aitheras_d3ic0lo_119
+  - first:
+      213: -3700029028437135355
+    second: world_flags_large_by_aitheras_d3ic0lo_120
+  - first:
+      213: -3068493698490864538
+    second: world_flags_large_by_aitheras_d3ic0lo_121
+  - first:
+      213: -511005978014505745
+    second: world_flags_large_by_aitheras_d3ic0lo_122
+  - first:
+      213: -5402884571694381557
+    second: world_flags_large_by_aitheras_d3ic0lo_123
+  - first:
+      213: -6636297943665638848
+    second: world_flags_large_by_aitheras_d3ic0lo_124
+  - first:
+      213: 2790021007800696874
+    second: world_flags_large_by_aitheras_d3ic0lo_125
+  - first:
+      213: -8418422021759359806
+    second: world_flags_large_by_aitheras_d3ic0lo_126
+  - first:
+      213: 5008815328591200764
+    second: world_flags_large_by_aitheras_d3ic0lo_127
+  - first:
+      213: 310129806590729700
+    second: world_flags_large_by_aitheras_d3ic0lo_128
+  - first:
+      213: -2597379870645242398
+    second: world_flags_large_by_aitheras_d3ic0lo_129
+  - first:
+      213: -7528374250583172183
+    second: world_flags_large_by_aitheras_d3ic0lo_130
+  - first:
+      213: 7823698207451002707
+    second: world_flags_large_by_aitheras_d3ic0lo_131
+  - first:
+      213: -7017347714389251485
+    second: world_flags_large_by_aitheras_d3ic0lo_132
+  - first:
+      213: -1934958015332806948
+    second: world_flags_large_by_aitheras_d3ic0lo_133
+  - first:
+      213: -4276377429403364222
+    second: world_flags_large_by_aitheras_d3ic0lo_134
+  - first:
+      213: 3503373839383986149
+    second: world_flags_large_by_aitheras_d3ic0lo_135
+  - first:
+      213: 8211265140004243875
+    second: world_flags_large_by_aitheras_d3ic0lo_136
+  - first:
+      213: 2100259392022945272
+    second: world_flags_large_by_aitheras_d3ic0lo_137
+  - first:
+      213: 6206329524645326782
+    second: world_flags_large_by_aitheras_d3ic0lo_138
+  - first:
+      213: 2449375940835593101
+    second: world_flags_large_by_aitheras_d3ic0lo_139
+  - first:
+      213: 8687360901915433976
+    second: world_flags_large_by_aitheras_d3ic0lo_140
+  - first:
+      213: -2786700444594457613
+    second: world_flags_large_by_aitheras_d3ic0lo_141
+  - first:
+      213: 8877213398673573138
+    second: world_flags_large_by_aitheras_d3ic0lo_142
+  - first:
+      213: 6018369429162226168
+    second: world_flags_large_by_aitheras_d3ic0lo_143
+  - first:
+      213: -5094063240438424506
+    second: world_flags_large_by_aitheras_d3ic0lo_144
+  - first:
+      213: 6404341888502518770
+    second: world_flags_large_by_aitheras_d3ic0lo_145
+  - first:
+      213: 3038785740677701706
+    second: world_flags_large_by_aitheras_d3ic0lo_146
+  - first:
+      213: 8211451896316337271
+    second: world_flags_large_by_aitheras_d3ic0lo_147
+  - first:
+      213: 395728376883380951
+    second: world_flags_large_by_aitheras_d3ic0lo_148
+  - first:
+      213: -6015246409833691173
+    second: world_flags_large_by_aitheras_d3ic0lo_149
+  - first:
+      213: -1909240285126437652
+    second: world_flags_large_by_aitheras_d3ic0lo_150
+  - first:
+      213: 6563564053602417171
+    second: world_flags_large_by_aitheras_d3ic0lo_151
+  - first:
+      213: -7857236797297054837
+    second: world_flags_large_by_aitheras_d3ic0lo_152
+  - first:
+      213: -1725248104197725307
+    second: world_flags_large_by_aitheras_d3ic0lo_153
+  - first:
+      213: -3491797716441331020
+    second: world_flags_large_by_aitheras_d3ic0lo_154
+  - first:
+      213: 3480544596353931555
+    second: world_flags_large_by_aitheras_d3ic0lo_155
+  - first:
+      213: -2167909946212279733
+    second: world_flags_large_by_aitheras_d3ic0lo_156
+  - first:
+      213: 7694768497373068833
+    second: world_flags_large_by_aitheras_d3ic0lo_157
+  - first:
+      213: -8457078467634833836
+    second: world_flags_large_by_aitheras_d3ic0lo_158
+  - first:
+      213: -6025884274174446285
+    second: world_flags_large_by_aitheras_d3ic0lo_159
+  - first:
+      213: 2510941222809238841
+    second: world_flags_large_by_aitheras_d3ic0lo_160
+  - first:
+      213: 2048232100059253837
+    second: world_flags_large_by_aitheras_d3ic0lo_161
+  - first:
+      213: -4978633298916194086
+    second: world_flags_large_by_aitheras_d3ic0lo_162
+  - first:
+      213: -4370873608309466032
+    second: world_flags_large_by_aitheras_d3ic0lo_163
+  - first:
+      213: 5965049842777786334
+    second: world_flags_large_by_aitheras_d3ic0lo_164
+  - first:
+      213: 8316911879440839160
+    second: world_flags_large_by_aitheras_d3ic0lo_165
+  - first:
+      213: 327693410147529616
+    second: world_flags_large_by_aitheras_d3ic0lo_166
+  - first:
+      213: -7881343847299773367
+    second: world_flags_large_by_aitheras_d3ic0lo_167
+  - first:
+      213: 2054497486457952010
+    second: world_flags_large_by_aitheras_d3ic0lo_168
+  - first:
+      213: -656319706420437739
+    second: world_flags_large_by_aitheras_d3ic0lo_169
+  - first:
+      213: 5084801845801820423
+    second: world_flags_large_by_aitheras_d3ic0lo_170
+  - first:
+      213: 4245460076201585457
+    second: world_flags_large_by_aitheras_d3ic0lo_171
+  - first:
+      213: 6318720495838970691
+    second: world_flags_large_by_aitheras_d3ic0lo_172
+  - first:
+      213: 120062448841605775
+    second: world_flags_large_by_aitheras_d3ic0lo_173
+  - first:
+      213: 5565182910340376897
+    second: world_flags_large_by_aitheras_d3ic0lo_174
+  - first:
+      213: -8156885770458910626
+    second: world_flags_large_by_aitheras_d3ic0lo_175
+  - first:
+      213: 4338988960076724660
+    second: world_flags_large_by_aitheras_d3ic0lo_176
+  - first:
+      213: 7000309900859569371
+    second: world_flags_large_by_aitheras_d3ic0lo_177
+  - first:
+      213: -5815374254466633338
+    second: world_flags_large_by_aitheras_d3ic0lo_178
+  - first:
+      213: 5881879863433590748
+    second: world_flags_large_by_aitheras_d3ic0lo_179
+  - first:
+      213: 2525334556218626656
+    second: world_flags_large_by_aitheras_d3ic0lo_180
+  - first:
+      213: 6932111688717009782
+    second: world_flags_large_by_aitheras_d3ic0lo_181
+  - first:
+      213: 2972951415652877913
+    second: world_flags_large_by_aitheras_d3ic0lo_182
+  - first:
+      213: 2993650804803326756
+    second: world_flags_large_by_aitheras_d3ic0lo_183
+  - first:
+      213: 2042113129773851683
+    second: world_flags_large_by_aitheras_d3ic0lo_184
+  - first:
+      213: -3800160040165713523
+    second: world_flags_large_by_aitheras_d3ic0lo_185
+  - first:
+      213: 2511388164515237900
+    second: world_flags_large_by_aitheras_d3ic0lo_186
+  - first:
+      213: 8119721999945361721
+    second: world_flags_large_by_aitheras_d3ic0lo_187
+  - first:
+      213: 87718859439488057
+    second: world_flags_large_by_aitheras_d3ic0lo_188
+  - first:
+      213: -4950782583765259894
+    second: world_flags_large_by_aitheras_d3ic0lo_189
+  - first:
+      213: -4726934518613806053
+    second: world_flags_large_by_aitheras_d3ic0lo_190
+  - first:
+      213: 6392935588127879684
+    second: world_flags_large_by_aitheras_d3ic0lo_191
+  - first:
+      213: 8104954444886584998
+    second: world_flags_large_by_aitheras_d3ic0lo_192
+  - first:
+      213: -2590679122050827436
+    second: world_flags_large_by_aitheras_d3ic0lo_193
+  - first:
+      213: -4657267753574658313
+    second: world_flags_large_by_aitheras_d3ic0lo_194
+  - first:
+      213: -1555301014698177149
+    second: world_flags_large_by_aitheras_d3ic0lo_195
+  - first:
+      213: -8983055404804897798
+    second: world_flags_large_by_aitheras_d3ic0lo_196
+  - first:
+      213: -2351079283673652055
+    second: world_flags_large_by_aitheras_d3ic0lo_197
+  - first:
+      213: 844725314872797907
+    second: world_flags_large_by_aitheras_d3ic0lo_198
+  - first:
+      213: -1669836345951328805
+    second: world_flags_large_by_aitheras_d3ic0lo_199
+  - first:
+      213: -6168019687095464383
+    second: world_flags_large_by_aitheras_d3ic0lo_200
+  - first:
+      213: 5546508310936799938
+    second: world_flags_large_by_aitheras_d3ic0lo_201
+  - first:
+      213: -559822172451484179
+    second: world_flags_large_by_aitheras_d3ic0lo_202
+  - first:
+      213: 5049673565833863143
+    second: world_flags_large_by_aitheras_d3ic0lo_203
+  - first:
+      213: -6388984784385299981
+    second: world_flags_large_by_aitheras_d3ic0lo_204
+  - first:
+      213: -2589190523019754953
+    second: world_flags_large_by_aitheras_d3ic0lo_205
+  - first:
+      213: -3073163131637087323
+    second: world_flags_large_by_aitheras_d3ic0lo_206
+  - first:
+      213: -5303363111281140216
+    second: world_flags_large_by_aitheras_d3ic0lo_207
+  - first:
+      213: -2873581151266343059
+    second: world_flags_large_by_aitheras_d3ic0lo_208
+  - first:
+      213: -637103049763808932
+    second: world_flags_large_by_aitheras_d3ic0lo_209
+  - first:
+      213: -1802985261692921792
+    second: world_flags_large_by_aitheras_d3ic0lo_210
+  - first:
+      213: 6811686636317561293
+    second: world_flags_large_by_aitheras_d3ic0lo_211
+  - first:
+      213: -1500013505582516560
+    second: world_flags_large_by_aitheras_d3ic0lo_212
+  - first:
+      213: 1163012746718984978
+    second: world_flags_large_by_aitheras_d3ic0lo_213
+  - first:
+      213: 4778644162316150011
+    second: world_flags_large_by_aitheras_d3ic0lo_214
+  - first:
+      213: 3258396364257194840
+    second: world_flags_large_by_aitheras_d3ic0lo_215
+  - first:
+      213: 2979247222180906294
+    second: world_flags_large_by_aitheras_d3ic0lo_216
+  - first:
+      213: -3036574098469535826
+    second: world_flags_large_by_aitheras_d3ic0lo_217
+  - first:
+      213: 719295612188481849
+    second: world_flags_large_by_aitheras_d3ic0lo_218
+  - first:
+      213: 3284073539310230231
+    second: world_flags_large_by_aitheras_d3ic0lo_219
+  - first:
+      213: -4302332901196796746
+    second: world_flags_large_by_aitheras_d3ic0lo_220
+  - first:
+      213: 8120958580087245473
+    second: world_flags_large_by_aitheras_d3ic0lo_221
+  - first:
+      213: 4847686130542091386
+    second: world_flags_large_by_aitheras_d3ic0lo_222
+  - first:
+      213: 6095259848823190862
+    second: world_flags_large_by_aitheras_d3ic0lo_223
+  - first:
+      213: -316098884178393324
+    second: world_flags_large_by_aitheras_d3ic0lo_224
+  - first:
+      213: -551616739490298435
+    second: world_flags_large_by_aitheras_d3ic0lo_225
+  - first:
+      213: -3429313189072163811
+    second: world_flags_large_by_aitheras_d3ic0lo_226
+  - first:
+      213: -889766169519621639
+    second: world_flags_large_by_aitheras_d3ic0lo_227
+  - first:
+      213: 2519434005512364467
+    second: world_flags_large_by_aitheras_d3ic0lo_228
+  - first:
+      213: 2353919071083835791
+    second: world_flags_large_by_aitheras_d3ic0lo_229
+  - first:
+      213: -4974749330195130158
+    second: world_flags_large_by_aitheras_d3ic0lo_230
+  - first:
+      213: -2386352107169671792
+    second: world_flags_large_by_aitheras_d3ic0lo_231
+  - first:
+      213: -940143062118696982
+    second: world_flags_large_by_aitheras_d3ic0lo_232
+  - first:
+      213: -3959608490154958248
+    second: world_flags_large_by_aitheras_d3ic0lo_233
+  - first:
+      213: -3801532527668340369
+    second: world_flags_large_by_aitheras_d3ic0lo_234
+  - first:
+      213: 5556761336978010512
+    second: world_flags_large_by_aitheras_d3ic0lo_235
+  - first:
+      213: -321928279867872747
+    second: world_flags_large_by_aitheras_d3ic0lo_236
+  - first:
+      213: 4396080854006988382
+    second: world_flags_large_by_aitheras_d3ic0lo_237
+  - first:
+      213: -2299575748227711725
+    second: world_flags_large_by_aitheras_d3ic0lo_238
+  - first:
+      213: -8512763464415039959
+    second: world_flags_large_by_aitheras_d3ic0lo_239
+  - first:
+      213: -7533993376512413690
+    second: world_flags_large_by_aitheras_d3ic0lo_240
+  - first:
+      213: 8894262570927050110
+    second: world_flags_large_by_aitheras_d3ic0lo_241
+  - first:
+      213: 4359431376706983347
+    second: world_flags_large_by_aitheras_d3ic0lo_242
+  - first:
+      213: 1964155488934400041
+    second: world_flags_large_by_aitheras_d3ic0lo_243
+  - first:
+      213: 223954908025355039
+    second: world_flags_large_by_aitheras_d3ic0lo_244
+  - first:
+      213: 2636250440638021556
+    second: world_flags_large_by_aitheras_d3ic0lo_245
+  - first:
+      213: -4804121322867611699
+    second: world_flags_large_by_aitheras_d3ic0lo_246
+  - first:
+      213: 1064300142285809706
+    second: world_flags_large_by_aitheras_d3ic0lo_247
+  - first:
+      213: 5404383332148563115
+    second: world_flags_large_by_aitheras_d3ic0lo_248
+  - first:
+      213: -8743877748175608743
+    second: world_flags_large_by_aitheras_d3ic0lo_249
+  - first:
+      213: 2419592924819561267
+    second: world_flags_large_by_aitheras_d3ic0lo_250
+  - first:
+      213: -5281218382114650141
+    second: world_flags_large_by_aitheras_d3ic0lo_251
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1240
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6ad2a76916911f0800000000000000
+      internalID: -1073719737228351805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1240
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221227f4f425f43f0800000000000000
+      internalID: -914421698744147678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1240
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16257f4a58e70ea10800000000000000
+      internalID: 1936686952232735329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1240
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26786273710121950800000000000000
+      internalID: 6418210110851942242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_4
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1240
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d30fa62688ad9f70800000000000000
+      internalID: 9195691308288508882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_5
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1240
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844700d71ef166e60800000000000000
+      internalID: 7955080845121844296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_6
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1240
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68aa83c4504c984d0800000000000000
+      internalID: -3131756538826806650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_7
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1240
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9cabd4a985f7ad0800000000000000
+      internalID: -2702343831646713432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee847a19a0eefe800800000000000000
+      internalID: 643995000898013422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_9
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1200
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab0a88b0a18d7950800000000000000
+      internalID: 6448452768755223459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_10
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1200
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6203c08639d57b90800000000000000
+      internalID: -7244645597443849619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_11
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1200
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bfe39b40f03fcd90800000000000000
+      internalID: -7075382680957489223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1200
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c59c20e63bc74fe0800000000000000
+      internalID: -1204770938748627519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_13
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1200
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f581b3b971d582130800000000000000
+      internalID: 3542183462896867423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_14
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1200
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f4a04ebbab46780800000000000000
+      internalID: -8690616064770683087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_15
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1200
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00a26b0d904f05c0800000000000000
+      internalID: -4247104880342032373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1160
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd775da6077889b0800000000000000
+      internalID: -5077677709298532927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_17
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1160
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d07d6acf3b2ecd0800000000000000
+      internalID: -2530262142916555482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_18
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1160
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ea729bb2884fe00800000000000000
+      internalID: 1077635932219747846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_19
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1160
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb60874a1d0b2800800000000000000
+      internalID: 588578582821891046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_20
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1160
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db81970acd53b0b00800000000000000
+      internalID: 795788980862392509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_21
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1160
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4767e22948d508170800000000000000
+      internalID: 8178639747274405492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_22
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1160
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1ad3a0bb8fd22e0800000000000000
+      internalID: -2148787964971474461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_23
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1160
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7039834ac284eebe0800000000000000
+      internalID: -1446139073768418553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1120
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e26d54b79ccdcf0800000000000000
+      internalID: -226084349985542543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_25
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1120
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c89f010b24f9180800000000000000
+      internalID: -9106486597553386471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_26
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1120
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5050edf1112a550800000000000000
+      internalID: 6170513268017530320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_27
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1120
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3d378d1afb9cd00800000000000000
+      internalID: 993535894654014426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_28
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1120
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3808b074be2c1afd0800000000000000
+      internalID: -2332368816236167037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_29
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1120
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d43b894e9f96500800000000000000
+      internalID: 390117602954005905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_30
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1120
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e53d2964c7cb03c0800000000000000
+      internalID: -4392197365177698846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_31
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1120
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36850357834ebb50800000000000000
+      internalID: 6610795551518983741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7644cfd4a8f32b820800000000000000
+      internalID: 2932476170618029159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_33
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1080
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b7f134252db3740800000000000000
+      internalID: 5132927451074100043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_34
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1080
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24b58bc7dec05570800000000000000
+      internalID: 8453483926802248750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_35
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1080
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2312975e11cb442a0800000000000000
+      internalID: -6754066756098514638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_36
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1080
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe033997f7309ad0800000000000000
+      internalID: -2697594640228217094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_37
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1080
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42378247cf8412d0800000000000000
+      internalID: -3308861740233051573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_38
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1080
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac5365bf38b303d0800000000000000
+      internalID: -3241544723010986835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_39
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1080
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9d767a9e8bb1890800000000000000
+      internalID: -7486186641897825879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1040
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1b6157d320aee70800000000000000
+      internalID: 9145124456309895672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_41
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1040
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9929abb2f98e8340800000000000000
+      internalID: 4867979922857601435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_42
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1040
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8fefddb45496e5f0800000000000000
+      internalID: -727731198090023027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_43
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1040
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aded3427b22ef070800000000000000
+      internalID: 8141983346314833321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_44
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1040
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8d2388de5358510800000000000000
+      internalID: 1550704941007558899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_45
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1040
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6d1df2c8c22c300800000000000000
+      internalID: 270827908204975866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_46
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1040
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4216660116a13bec0800000000000000
+      internalID: -3552466676875894492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_47
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1040
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b571b72a677bba40800000000000000
+      internalID: 5385029077267740085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567684963cb9ddb10800000000000000
+      internalID: 2007932272464389989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_49
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1000
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078ad77e31b073790800000000000000
+      internalID: -7550554070147291024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_50
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1000
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085e043d91ab6ecb0800000000000000
+      internalID: -4834972529854454400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_51
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1000
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76dcf8aa64601f40800000000000000
+      internalID: 5697163937888130687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_52
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1000
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00583352feab3ef50800000000000000
+      internalID: 6909571789600556288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_53
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1000
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4148be2b2fd18430800000000000000
+      internalID: 3783550538528342348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_54
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1000
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e02a5bb17856d30800000000000000
+      internalID: 4424090762042543724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_55
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1000
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40621ddf14bff23a0800000000000000
+      internalID: -6687850660772108796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30cb3d03803bf7440800000000000000
+      internalID: 4935860564381645827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_57
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 960
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8352777ed098dc330800000000000000
+      internalID: 3732790358970934584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_58
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 960
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828b7c33c95772580800000000000000
+      internalID: -8851977228829345752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_59
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 960
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd09fac8c0ffbde0800000000000000
+      internalID: -1315067820979450408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_60
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 960
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d10ccae3faa8a90800000000000000
+      internalID: -7310838361361474191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_61
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 960
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbdc6a594e0756c40800000000000000
+      internalID: 5504930246595890619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_62
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 960
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15fcdb67047dfe30800000000000000
+      internalID: 4538911574682563871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_63
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 960
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c127bb1243f528be0800000000000000
+      internalID: -1476513050315230692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 920
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0d7736dd2034de0800000000000000
+      internalID: -1350232313401192211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_65
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 920
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775dd5303ad8beed0800000000000000
+      internalID: -2383655846486878857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_66
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 920
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7cebf5eb81f64420800000000000000
+      internalID: 2614042216896392318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_67
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 920
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22dba8754e7b1f3e0800000000000000
+      internalID: -2021632566363505374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_68
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 920
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd24c9a47a0122a0800000000000000
+      internalID: -6764113669153083917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_69
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 920
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85063b8475e6d67d0800000000000000
+      internalID: -2923559261932658600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_70
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 920
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f351d18ce3a5f800800000000000000
+      internalID: 645602357783122937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_71
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 920
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c43306d84a1fd0e0800000000000000
+      internalID: -2243045189276715835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 880
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37550734bd23dc7f0800000000000000
+      internalID: -590760058805004941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_73
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 880
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a697396a1447f1f0800000000000000
+      internalID: -1011264711096297820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_74
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 880
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c0b5e0f88cc27f0800000000000000
+      internalID: -635912930619356037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_75
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 880
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc66c081005ec4b40800000000000000
+      internalID: 5425963439640831695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_76
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 880
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1e3993fefb59b40800000000000000
+      internalID: 5446470358558564850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_77
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 880
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64fe1a1f0e9178730800000000000000
+      internalID: 4001195247859265350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_78
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 880
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61809a7af36198d10800000000000000
+      internalID: 2128256761560893462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_79
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 880
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31f661cc0360bf90800000000000000
+      internalID: -6939938119342427842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e31cf4cae68fab0800000000000000
+      internalID: -4974104102079218035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_81
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 840
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71ea80463c0427b0800000000000000
+      internalID: -5250057838456544900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_82
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 840
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6838fb0683a39e0800000000000000
+      internalID: -1640937126042040643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_83
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 840
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c9454a73930b180800000000000000
+      internalID: -9101711935772779494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_84
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 840
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df37fcabc93127d60800000000000000
+      internalID: 7886387461349143549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_85
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 840
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74ff6377d46e66b0800000000000000
+      internalID: -5301188834851031942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_86
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 840
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da86baef15bbe660800000000000000
+      internalID: 7416220360082098901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_87
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 840
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4ee4772c2632090800000000000000
+      internalID: -8060490320698219316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812b5efedeef9b350800000000000000
+      internalID: 6033133473725002264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_89
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 800
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb72f0a4f8aacd10800000000000000
+      internalID: 2146713941021195230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_90
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 800
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94dceefc1fcd9cb70800000000000000
+      internalID: 8919903468117740873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_91
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 800
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df36ef975d9a86130800000000000000
+      internalID: 3560282239776220157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_92
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 800
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7feba0e6818e46e0800000000000000
+      internalID: -1851399980507730052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_93
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 800
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7385803092459abb0800000000000000
+      internalID: -4924312182431655881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_94
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 800
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70aa8cf584ff62de0800000000000000
+      internalID: -1358117551295911417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_95
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 800
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1a50f138f77ec70800000000000000
+      internalID: 9000302581461131761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 760
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ea90c5ed1145000800000000000000
+      internalID: 23663544768245351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_97
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 760
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f1be4be503cec30800000000000000
+      internalID: 4389936920099757868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_98
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 760
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e925b2da1e80acd0800000000000000
+      internalID: -2548881143236318746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_99
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 760
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea98cf8ac412d240800000000000000
+      internalID: 4814933811840719584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_100
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 760
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24e75d239d57fd60800000000000000
+      internalID: 7923904956083987501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_101
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 760
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75ab65e54029e180800000000000000
+      internalID: -9085695288669395590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_102
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 760
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3cabc7f3dc52ad0800000000000000
+      internalID: -2727548326743718943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_103
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 760
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc14127ba2b348bb0800000000000000
+      internalID: -4934754237044145716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68801032b2cf81a20800000000000000
+      internalID: 3033451611235092614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_105
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 720
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b349ce36de8c2a0800000000000000
+      internalID: -6716857830796412031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_106
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 720
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9469123de46e70320800000000000000
+      internalID: 2524239342388483657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_107
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 720
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf94293cfee90810800000000000000
+      internalID: 1732178298758537143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_108
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 720
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44155dae84fbe0600800000000000000
+      internalID: 436496533799915844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_109
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 720
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c6616d82a04af90800000000000000
+      internalID: -6943413554991698926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_110
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 720
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4901c361a9fe0bb40800000000000000
+      internalID: 5454122593822707860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_111
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 720
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf484a51b37d6d370800000000000000
+      internalID: 8347095608143938812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 680
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8530e4955df434c40800000000000000
+      internalID: 5495323748067050328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_113
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 680
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7652235922f8ae3e0800000000000000
+      internalID: -2023647703854865049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_114
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 680
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da21249e57df7afb0800000000000000
+      internalID: -4636458608488213843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_115
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 680
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4480f6fd06a11bb0800000000000000
+      internalID: -4967006335105203124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_116
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 680
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd643af2d3161d2d0800000000000000
+      internalID: -3255714140192028961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_117
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 680
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac93773b875ad32f0800000000000000
+      internalID: -991454405126047286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_118
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 680
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb668b07106086060800000000000000
+      internalID: 6946809028474857147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_119
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 680
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6755577077c38ef60800000000000000
+      internalID: 8063761614730777974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500fe55c33bd6acc0800000000000000
+      internalID: -3700029028437135355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_121
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 640
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c6de12d358a65d0800000000000000
+      internalID: -3068493698490864538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_122
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 640
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4285a35ca88e8f0800000000000000
+      internalID: -511005978014505745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_123
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 640
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06c7b59b191505b0800000000000000
+      internalID: -5402884571694381557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_124
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 640
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042872c4e2227e3a0800000000000000
+      internalID: -6636297943665638848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_125
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 640
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2086dd035528b620800000000000000
+      internalID: 2790021007800696874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_126
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 640
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c425bf16c1cb2b80800000000000000
+      internalID: -8418422021759359806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_127
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 640
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1c536e003e28540800000000000000
+      internalID: 5008815328591200764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4edd91c7a6dcd4400800000000000000
+      internalID: 310129806590729700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_129
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 600
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5b077e4c044fbd0800000000000000
+      internalID: -2597379870645242398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_130
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 600
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abdac19187d58790800000000000000
+      internalID: -7528374250583172183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_131
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 600
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3573af4611c539c60800000000000000
+      internalID: 7823698207451002707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_132
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 600
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36aed6aee6f5d9e90800000000000000
+      internalID: -7017347714389251485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_133
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 600
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde0bc8dfe5a525e0800000000000000
+      internalID: -1934958015332806948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_134
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 600
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2841aea926147a4c0800000000000000
+      internalID: -4276377429403364222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_135
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 600
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eff0ebf1fb7e9030800000000000000
+      internalID: 3503373839383986149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_136
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a94082c32644f170800000000000000
+      internalID: 8211265140004243875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_137
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 560
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd94b51ace952d10800000000000000
+      internalID: 2100259392022945272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_138
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 560
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebfe083f1df412650800000000000000
+      internalID: 6206329524645326782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_139
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 560
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8bc4ead07eedf120800000000000000
+      internalID: 2449375940835593101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_140
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 560
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb594276b4bf8870800000000000000
+      internalID: 8687360901915433976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_141
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 560
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f33680d5b6a359d0800000000000000
+      internalID: -2786700444594457613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_142
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 560
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215c6477d82323b70800000000000000
+      internalID: 8877213398673573138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_143
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 560
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1f840fb1b858350800000000000000
+      internalID: 6018369429162226168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 520
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64cda4ae8704e49b0800000000000000
+      internalID: -5094063240438424506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_145
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 520
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3d854140bc0e850800000000000000
+      internalID: 6404341888502518770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_146
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 520
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40ed9de78feb2a20800000000000000
+      internalID: 3038785740677701706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_147
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 520
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c942a5effe4f170800000000000000
+      internalID: 8211451896316337271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_148
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 520
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d20da3bcd8ed7500800000000000000
+      internalID: 395728376883380951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_149
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 520
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd74b69a24d858ca0800000000000000
+      internalID: -6015246409833691173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_150
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 520
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce45c2683140185e0800000000000000
+      internalID: -1909240285126437652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_151
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 520
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31abe734bb6761b50800000000000000
+      internalID: 6563564053602417171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_152
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b2bf423cc75f290800000000000000
+      internalID: -7857236797297054837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_153
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 480
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583e0ef6dffae08e0800000000000000
+      internalID: -1725248104197725307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_154
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 480
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba8efb2a74aa8fc0800000000000000
+      internalID: -3491797716441331020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_155
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 480
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329d492aed06d4030800000000000000
+      internalID: 3480544596353931555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_156
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 480
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a1bf6d3690ae1e0800000000000000
+      internalID: -2167909946212279733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_157
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 480
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12eb9c20e2f49ca60800000000000000
+      internalID: 7694768497373068833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_158
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 480
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4565503f0fb62aa80800000000000000
+      internalID: -8457078467634833836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_159
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 480
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335383cdd22cf5ca0800000000000000
+      internalID: -6025884274174446285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93dfd651db7a8d220800000000000000
+      internalID: 2510941222809238841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_161
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 440
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c85953e38cc6c10800000000000000
+      internalID: 2048232100059253837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_162
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 440
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad84b2f746758eab0800000000000000
+      internalID: -4978633298916194086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_163
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 440
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c95927c998753c0800000000000000
+      internalID: -4370873608309466032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_164
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 440
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed705425a3d18c250800000000000000
+      internalID: 5965049842777786334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_165
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 440
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f13c4a1a4b9b6370800000000000000
+      internalID: 8316911879440839160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_166
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 440
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093741b9b633c8400800000000000000
+      internalID: 327693410147529616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_167
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 440
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c8cfc2787df9290800000000000000
+      internalID: -7881343847299773367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a075248249a038c10800000000000000
+      internalID: 2054497486457952010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_169
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 400
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d98bf44b844e6f0800000000000000
+      internalID: -656319706420437739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_170
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 400
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701a44c9658d09640800000000000000
+      internalID: 5084801845801820423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_171
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 400
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b29162277eaea30800000000000000
+      internalID: 4245460076201585457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_172
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 400
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343467d10da90b750800000000000000
+      internalID: 6318720495838970691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_173
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 400
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82411e392c8aa100800000000000000
+      internalID: 120062448841605775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_174
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 400
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149a9e01f508b3d40800000000000000
+      internalID: 5565182910340376897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_175
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 400
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50bb5adb9becce80800000000000000
+      internalID: -8156885770458910626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_176
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9f6b1687f273c30800000000000000
+      internalID: 4338988960076724660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_177
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 360
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4726ef3c8162160800000000000000
+      internalID: 7000309900859569371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_178
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 360
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681709e3de3ab4fa0800000000000000
+      internalID: -5815374254466633338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_179
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 360
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd77b7f7292a0a150800000000000000
+      internalID: 5881879863433590748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_180
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 360
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0621e6a266acb0320800000000000000
+      internalID: 2525334556218626656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_181
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 360
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6738f4d5adec33060800000000000000
+      internalID: 6932111688717009782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_182
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 360
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9560c78af8b024920800000000000000
+      internalID: 2972951415652877913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_183
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 360
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4235dd1cb859b8920800000000000000
+      internalID: 2993650804803326756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_184
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324e45b621b075c10800000000000000
+      internalID: 2042113129773851683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_185
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 320
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89d94cd39e134bc0800000000000000
+      internalID: -3800160040165713523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_186
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 320
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c001d0fca3e3ad220800000000000000
+      internalID: 2511388164515237900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_187
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 320
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939eaa9832c0fa070800000000000000
+      internalID: 8119721999945361721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_188
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 320
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c3ef086d3a73100800000000000000
+      internalID: 87718859439488057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_189
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 320
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a892b7e68794b4bb0800000000000000
+      internalID: -4950782583765259894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_190
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 320
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14fd75891e866eb0800000000000000
+      internalID: -4726934518613806053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_191
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 320
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402b052db0548b850800000000000000
+      internalID: 6392935588127879684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_192
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae203030259a7070800000000000000
+      internalID: 8104954444886584998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_193
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 280
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45bb323801f0c0cd0800000000000000
+      internalID: -2590679122050827436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_194
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 280
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe0d4447af0e5fb0800000000000000
+      internalID: -4657267753574658313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_195
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 280
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d4c1ca7f57a6ae0800000000000000
+      internalID: -1555301014698177149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_196
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 280
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af383fe14b6c55380800000000000000
+      internalID: -8983055404804897798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_197
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 280
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a42ad919d94f5fd0800000000000000
+      internalID: -2351079283673652055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_198
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 280
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dae5c5c23119bb00800000000000000
+      internalID: 844725314872797907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_199
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 280
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5e886c0bc83d8e0800000000000000
+      internalID: -1669836345951328805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_200
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e0f0f26cac66aa0800000000000000
+      internalID: -6168019687095464383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_201
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 240
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cac3211ce729fc40800000000000000
+      internalID: 5546508310936799938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_202
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 240
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded44a143bc1b38f0800000000000000
+      internalID: -559822172451484179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_203
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 240
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef15339a5b041640800000000000000
+      internalID: 5049673565833863143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_204
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9a65b5034c557a0800000000000000
+      internalID: -6388984784385299981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_205
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 240
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732899bffe8511cd0800000000000000
+      internalID: -2589190523019754953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_206
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 240
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3c1f10a6ee955d0800000000000000
+      internalID: -3073163131637087323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_207
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 240
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e5d25495ba666b0800000000000000
+      internalID: -5303363111281140216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_208
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 50
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67f285fa2dfe18d0800000000000000
+      internalID: -2873581151266343059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_209
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 200
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c599289d62e8827f0800000000000000
+      internalID: -637103049763808932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_210
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 200
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048578505728af6e0800000000000000
+      internalID: -1802985261692921792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_211
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 200
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1dbf6e7e8f78e50800000000000000
+      internalID: 6811686636317561293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_212
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 200
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b637710aa1ee2be0800000000000000
+      internalID: -1500013505582516560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_213
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 200
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bbf656ee9d32010800000000000000
+      internalID: 1163012746718984978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_214
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 200
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf429da1c87215240800000000000000
+      internalID: 4778644162316150011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_215
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 200
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85379f4ca36283d20800000000000000
+      internalID: 3258396364257194840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_216
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63589285099685920800000000000000
+      internalID: 2979247222180906294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_217
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 160
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf329622fbebd5d0800000000000000
+      internalID: -3036574098469535826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_218
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 160
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939ddfc5c837bf900800000000000000
+      internalID: 719295612188481849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_219
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 160
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da98d6fb7f539d20800000000000000
+      internalID: 3284073539310230231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_220
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc60b6650b0b44c0800000000000000
+      internalID: -4302332901196796746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_221
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 160
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aac2c94dc073b070800000000000000
+      internalID: 8120958580087245473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_222
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 160
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c9c810ad0764340800000000000000
+      internalID: 4847686130542091386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_223
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 160
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45bec6d986b69450800000000000000
+      internalID: 6095259848823190862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_224
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41746a65dbdfc9bf0800000000000000
+      internalID: -316098884178393324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_225
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 120
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5858e7f734858f0800000000000000
+      internalID: -551616739490298435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_226
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 120
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1caac5e2d1a860d0800000000000000
+      internalID: -3429313189072163811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_227
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 120
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f97f9c026ae6a3f0800000000000000
+      internalID: -889766169519621639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_228
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 120
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1aa9521e3d6f220800000000000000
+      internalID: 2519434005512364467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_229
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 120
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8138fd6ceccaa020800000000000000
+      internalID: 2353919071083835791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_230
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 120
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d85b1f67d326fab0800000000000000
+      internalID: -4974749330195130158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_231
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 120
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0959527e669f1eed0800000000000000
+      internalID: -2386352107169671792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_232
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7fd58bdd0f3f2f0800000000000000
+      internalID: -940143062118696982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_233
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 80
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85261be9e05ac09c0800000000000000
+      internalID: -3959608490154958248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_234
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 80
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f695c36be4e3e3bc0800000000000000
+      internalID: -3801532527668340369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_235
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 80
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091f238bef49d1d40800000000000000
+      internalID: 5556761336978010512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_236
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51aa2536fe7488bf0800000000000000
+      internalID: -321928279867872747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_237
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 80
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e7bface34020d30800000000000000
+      internalID: 4396080854006988382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_238
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 80
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31db8c86a044610e0800000000000000
+      internalID: -2299575748227711725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_239
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 80
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e2e9e4bb69cd980800000000000000
+      internalID: -8512763464415039959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_240
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600f4dcd0f0e17790800000000000000
+      internalID: -7533993376512413690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_241
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 40
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7dc8273fa4ce6b70800000000000000
+      internalID: 8894262570927050110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_242
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 40
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5df476dbfcf7c30800000000000000
+      internalID: 4359431376706983347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_243
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 40
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9209199b205124b10800000000000000
+      internalID: 1964155488934400041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_244
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 40
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b7e826dc5ab1300800000000000000
+      internalID: 223954908025355039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_245
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 40
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf323deec7d59420800000000000000
+      internalID: 2636250440638021556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_246
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 40
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7a8943c15545db0800000000000000
+      internalID: -4804121322867611699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_247
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 40
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28e75b275725ce00800000000000000
+      internalID: 1064300142285809706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_248
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bacc1c6c10a300b40800000000000000
+      internalID: 5404383332148563115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_249
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954ec8cd38187a680800000000000000
+      internalID: -8743877748175608743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_250
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b1be012fe149120800000000000000
+      internalID: 2419592924819561267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_flags_large_by_aitheras_d3ic0lo_251
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e70bc0dcd755b6b0800000000000000
+      internalID: -5281218382114650141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,4 @@
+org.gradle.jvmargs=-Xmx1536m -Duser.country=US -Duser.language=en
+org.gradle.parallel=true
+android.enableR8=**MINIFY_WITH_R_EIGHT**
+**ADDITIONAL_PROPERTIES**

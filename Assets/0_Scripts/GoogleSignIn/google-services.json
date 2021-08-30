@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "924544327896",
+    "firebase_url": "https://growingcity-53802027.firebaseio.com",
+    "project_id": "growingcity-53802027",
+    "storage_bucket": "growingcity-53802027.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924544327896:android:37bc2062dc9866879df7ad",
+        "android_client_info": {
+          "package_name": "com.shovelinglife.growingcity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924544327896-bdascmtfho0ogkjq4arrp57ia1f9vit4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shovelinglife.growingcity",
+            "certificate_hash": "ed62bd15264257bffd24b5324610fad13414da3a"
+          }
+        },
+        {
+          "client_id": "924544327896-demsqc5s2l77ev5a60m080iqp5kdeqv7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdNn6Wn2emWI00eqgV_B7KiM3sbQ9H2L4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924544327896-demsqc5s2l77ev5a60m080iqp5kdeqv7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
