@@ -137,7 +137,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4388721
 RectTransform:
   m_ObjectHideFlags: 0
@@ -172,22 +172,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73026b4ff38ad1f4aad8e5bc05a9a613, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  save_manager: {fileID: 1110393074}
-  optionMenu: {fileID: 4388717}
-  pausePanel: {fileID: 1954366520}
-  continueButton: {fileID: 624283175}
-  shopButton: {fileID: 1691631737}
-  rankingButton: {fileID: 1895191501}
-  soundButton: {fileID: 458196283}
-  loadButton: {fileID: 661943838}
-  saveButton: {fileID: 1369115319}
-  languageButton: {fileID: 657572217}
-  quitButton: {fileID: 1854335799}
-  sureToQuit: {fileID: 272427764}
-  sound_image_object: {fileID: 335329304}
-  sound_on_sprite: {fileID: 21300000, guid: b38084635d70f4ab79ffe4aae48b7a2c, type: 3}
-  sound_off_sprite: {fileID: 21300000, guid: 5f393014c067b4ee09b975d451aa3385, type: 3}
-  ms_seller_object: {fileID: 1496269387}
 --- !u!1 &5969407
 GameObject:
   m_ObjectHideFlags: 0
@@ -270,7 +254,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1988069184}
+      - m_Target: {fileID: 0}
         m_MethodName: Multiply_automation_perOne
         m_Mode: 1
         m_Arguments:
@@ -350,7 +334,6 @@ RectTransform:
   - {fileID: 897190229}
   - {fileID: 118669785}
   - {fileID: 1514628154}
-  - {fileID: 1988069182}
   m_Father: {fileID: 1347431060}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -488,7 +471,7 @@ GameObject:
   m_Component:
   - component: {fileID: 14858123}
   m_Layer: 5
-  m_Name: CropMENU
+  m_Name: Crop_menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1267,13 +1250,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f5b555e0a62fec4e9a7005805ea49aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gold: 0
-  cash: 0
-  goldPerClick_Crop: 0
-  goldPerClick_City: 0
-  goldPerSec_automation: 0
-  goldPerSec_resident: 0
-  goldPerSec_building: 0
 --- !u!4 &43110867
 Transform:
   m_ObjectHideFlags: 0
@@ -1286,7 +1262,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &49002876
 GameObject:
@@ -1674,7 +1650,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1988069184}
+      - m_Target: {fileID: 0}
         m_MethodName: Multiply_crop_perTen
         m_Mode: 1
         m_Arguments:
@@ -2312,15 +2288,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f29b5fd007a7fe64daef243a69f481da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgradeButton_City: {fileID: 95930057}
-  txt_upgrade_price_city: {fileID: 1278920711}
-  txt_level_city: {fileID: 1084435250}
-  txt_perSec_city: {fileID: 1996872684}
-  txt_upgrade_letter_city: {fileID: 1371438953}
-  start_gold_by_upgrade_city: 0
-  start_current_cost_city: 1800
-  city_upgrade_price: 0
-  city_level: 1
 --- !u!114 &95930057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2652,7 +2619,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1988069184}
+      - m_Target: {fileID: 0}
         m_MethodName: Multiply_resident_perFifty
         m_Mode: 1
         m_Arguments:
@@ -3180,7 +3147,7 @@ GameObject:
   m_Component:
   - component: {fileID: 118669785}
   m_Layer: 5
-  m_Name: AutomationMENU
+  m_Name: Automation_menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3350,15 +3317,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5aba3714b8c045b40aac294e4f9e18f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgradeButton_crop: {fileID: 121143592}
-  upgrade_letter_displayer_crop: {fileID: 575726577}
-  perSec_crop: {fileID: 1753787032}
-  level_crop: {fileID: 37088042}
-  upgrade_price_crop: {fileID: 264646196}
-  startGoldByUpgrade_crop: 0
-  startCurrentCost_crop: 250
-  crop_upgrade_price: 0
-  crop_level: 1
 --- !u!1 &121237655
 GameObject:
   m_ObjectHideFlags: 0
@@ -3896,15 +3854,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d8f42b65d20af342a9b8b0b00b7d55b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgradeButton_mechanization: {fileID: 0}
-  txt_price_automation: {fileID: 349103599}
-  txt_level_automation: {fileID: 121237657}
-  txt_coinPerSec_automation: {fileID: 1887908248}
-  txt_upgrade_automation: {fileID: 2115734396}
-  start_goldPerSec_automation: 0
-  start_current_goldPerSec_automation: 15000
-  upgrade_price_automation: 0
-  level_automation: 1
 --- !u!114 &134678053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4664,7 +4613,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1988069184}
+      - m_Target: {fileID: 0}
         m_MethodName: Multiply_automation_perFifty
         m_Mode: 1
         m_Arguments:
@@ -5613,7 +5562,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1988069184}
+      - m_Target: {fileID: 0}
         m_MethodName: Multiply_crop_perFifty
         m_Mode: 1
         m_Arguments:
@@ -6341,7 +6290,7 @@ Transform:
   - {fileID: 439865837}
   - {fileID: 1007504337}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &259054725
 GameObject:
@@ -6395,15 +6344,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a3c33f6631ef5c4197a6f0c8af4452a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgradeButton_resident: {fileID: 0}
-  txt_upgrade_resident: {fileID: 354709849}
-  txt_price_resident: {fileID: 345537159}
-  txt_level_resident: {fileID: 1035840585}
-  txt_coinPerSec_resident: {fileID: 1884871066}
-  start_goldPerSec_resident: 0
-  start_current_upgrade_price_resident: 3500
-  upgrade_price_resident: 0
-  level_resident: 1
 --- !u!114 &259054728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8960,15 +8900,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f29b5fd007a7fe64daef243a69f481da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgradeButton_City: {fileID: 283480231}
-  txt_upgrade_price_city: {fileID: 1183813784}
-  txt_level_city: {fileID: 1583934841}
-  txt_perSec_city: {fileID: 1996872684}
-  txt_upgrade_letter_city: {fileID: 547024479}
-  start_gold_by_upgrade_city: 0
-  start_current_cost_city: 450
-  city_upgrade_price: 0
-  city_level: 1
 --- !u!1 &288604798
 GameObject:
   m_ObjectHideFlags: 0
@@ -10492,15 +10423,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5aba3714b8c045b40aac294e4f9e18f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgradeButton_crop: {fileID: 337794410}
-  upgrade_letter_displayer_crop: {fileID: 68725253}
-  perSec_crop: {fileID: 1753787032}
-  level_crop: {fileID: 721986748}
-  upgrade_price_crop: {fileID: 1414596085}
-  startGoldByUpgrade_crop: 0
-  startCurrentCost_crop: 10
-  crop_upgrade_price: 0
-  crop_level: 1
 --- !u!1 &345537157
 GameObject:
   m_ObjectHideFlags: 0
@@ -12197,7 +12119,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &420304334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12210,21 +12132,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3e58abad1876ef4298db90f9caa040b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ms_seller: {fileID: 1496269387}
-  menu_button:
-  - {fileID: 316134409}
-  - {fileID: 24095981}
-  - {fileID: 665408603}
-  - {fileID: 193655084}
-  move_to_next_map_button: {fileID: 1481169034}
-  data_controller: {fileID: 43110866}
-  time_manager: {fileID: 1725008742}
-  login_gold_object: {fileID: 845811173}
-  daily_reward_object: {fileID: 590351924}
-  welcome_back_text: {fileID: 1277312480}
-  welcome_back_money_text: {fileID: 969509815}
-  reward_x2_text: {fileID: 131721022}
-  reward_gold_text: {fileID: 2003530054}
 --- !u!224 &420304335
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13515,15 +13422,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d8f42b65d20af342a9b8b0b00b7d55b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgradeButton_mechanization: {fileID: 0}
-  txt_price_automation: {fileID: 1961297444}
-  txt_level_automation: {fileID: 489188120}
-  txt_coinPerSec_automation: {fileID: 1887908248}
-  txt_upgrade_automation: {fileID: 1183147715}
-  start_goldPerSec_automation: 0
-  start_current_goldPerSec_automation: 5000
-  upgrade_price_automation: 0
-  level_automation: 1
 --- !u!1 &461746281
 GameObject:
   m_ObjectHideFlags: 0
@@ -15655,15 +15553,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5aba3714b8c045b40aac294e4f9e18f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgradeButton_crop: {fileID: 540441379}
-  upgrade_letter_displayer_crop: {fileID: 1354919687}
-  perSec_crop: {fileID: 1753787032}
-  level_crop: {fileID: 1008137482}
-  upgrade_price_crop: {fileID: 288604800}
-  startGoldByUpgrade_crop: 0
-  startCurrentCost_crop: 125
-  crop_upgrade_price: 0
-  crop_level: 1
 --- !u!1 &540506643
 GameObject:
   m_ObjectHideFlags: 0
@@ -16798,7 +16687,7 @@ Transform:
   - {fileID: 123357005}
   - {fileID: 264999626}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &579704887
 GameObject:
@@ -17413,7 +17302,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &590351925
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17947,15 +17836,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f29b5fd007a7fe64daef243a69f481da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgradeButton_City: {fileID: 600860552}
-  txt_upgrade_price_city: {fileID: 1425800299}
-  txt_level_city: {fileID: 877072269}
-  txt_perSec_city: {fileID: 1996872684}
-  txt_upgrade_letter_city: {fileID: 246475639}
-  start_gold_by_upgrade_city: 0
-  start_current_cost_city: 3600
-  city_upgrade_price: 0
-  city_level: 1
 --- !u!114 &600860552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19919,7 +19799,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &660631981
 GameObject:
@@ -20565,14 +20445,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ce4a94533c22d74d9935b36f1c8ecca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  save_manager: {fileID: 1110393074}
-  upgradeButton: {fileID: 682407960}
-  price_displayer_building: {fileID: 1705381411}
-  level_displayer_building: {fileID: 1837406063}
-  start_goldPerSec_building: 0
-  start_current_upgrade_price_building: 100000
-  upgrade_price_building: 0
-  level_building: 1
 --- !u!114 &682407960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21424,14 +21296,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ce4a94533c22d74d9935b36f1c8ecca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  save_manager: {fileID: 1110393074}
-  upgradeButton: {fileID: 713936997}
-  price_displayer_building: {fileID: 483666682}
-  level_displayer_building: {fileID: 107954693}
-  start_goldPerSec_building: 0
-  start_current_upgrade_price_building: 500000
-  upgrade_price_building: 1000000
-  level_building: 1
 --- !u!114 &713936997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21552,7 +21416,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &715426716
 MonoBehaviour:
@@ -21566,13 +21430,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4e2e92c0bc1c3d4198ff5f3356764ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dontDestroy: 0
-  ad_buy_button: {fileID: 15979097}
-  DIAMONDS_50: 50_DIAMOND
-  DIAMONDS_125: 125_DIAMOND
-  DIAMONDS_250: 250_DIAMOND
-  DIAMONDS_500: 500_DIAMOND
-  NO_ADS: NO_ADS
 --- !u!1 &719933371
 GameObject:
   m_ObjectHideFlags: 0
@@ -22768,15 +22625,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a3c33f6631ef5c4197a6f0c8af4452a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgradeButton_resident: {fileID: 0}
-  txt_upgrade_resident: {fileID: 97967604}
-  txt_price_resident: {fileID: 2117895857}
-  txt_level_resident: {fileID: 953210809}
-  txt_coinPerSec_resident: {fileID: 1884871066}
-  start_goldPerSec_resident: 0
-  start_current_upgrade_price_resident: 500
-  upgrade_price_resident: 0
-  level_resident: 1
 --- !u!114 &775903754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23903,15 +23751,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d8f42b65d20af342a9b8b0b00b7d55b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgradeButton_mechanization: {fileID: 0}
-  txt_price_automation: {fileID: 1233859202}
-  txt_level_automation: {fileID: 1615281825}
-  txt_coinPerSec_automation: {fileID: 1887908248}
-  txt_upgrade_automation: {fileID: 1092295200}
-  start_goldPerSec_automation: 0
-  start_current_goldPerSec_automation: 7500
-  upgrade_price_automation: 0
-  level_automation: 1
 --- !u!114 &819868806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28342,7 +28181,7 @@ GameObject:
   m_Component:
   - component: {fileID: 897190229}
   m_Layer: 5
-  m_Name: ResidentMENU
+  m_Name: Resident_menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29848,7 +29687,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &956235514
 GameObject:
@@ -40126,7 +39965,7 @@ GameObject:
   m_Component:
   - component: {fileID: 992955767}
   m_Layer: 5
-  m_Name: CityMENU
+  m_Name: City_menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40908,15 +40747,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d8f42b65d20af342a9b8b0b00b7d55b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgradeButton_mechanization: {fileID: 0}
-  txt_price_automation: {fileID: 1698628281}
-  txt_level_automation: {fileID: 579704889}
-  txt_coinPerSec_automation: {fileID: 1887908248}
-  txt_upgrade_automation: {fileID: 698364057}
-  start_goldPerSec_automation: 0
-  start_current_goldPerSec_automation: 35000
-  upgrade_price_automation: 0
-  level_automation: 1
 --- !u!114 &1021092998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41060,15 +40890,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f29b5fd007a7fe64daef243a69f481da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgradeButton_City: {fileID: 1022150332}
-  txt_upgrade_price_city: {fileID: 968592510}
-  txt_level_city: {fileID: 1973564141}
-  txt_perSec_city: {fileID: 1996872684}
-  txt_upgrade_letter_city: {fileID: 919129714}
-  start_gold_by_upgrade_city: 0
-  start_current_cost_city: 15000
-  city_upgrade_price: 0
-  city_level: 1
 --- !u!114 &1022150332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41660,15 +41481,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d8f42b65d20af342a9b8b0b00b7d55b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgradeButton_mechanization: {fileID: 0}
-  txt_price_automation: {fileID: 1862671331}
-  txt_level_automation: {fileID: 2057710071}
-  txt_coinPerSec_automation: {fileID: 1887908248}
-  txt_upgrade_automation: {fileID: 966249410}
-  start_goldPerSec_automation: 0
-  start_current_goldPerSec_automation: 10000
-  upgrade_price_automation: 0
-  level_automation: 1
 --- !u!114 &1050438367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41978,15 +41790,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5aba3714b8c045b40aac294e4f9e18f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgradeButton_crop: {fileID: 1051609963}
-  upgrade_letter_displayer_crop: {fileID: 166737905}
-  perSec_crop: {fileID: 1753787032}
-  level_crop: {fileID: 1836128399}
-  upgrade_price_crop: {fileID: 1956709704}
-  startGoldByUpgrade_crop: 0
-  startCurrentCost_crop: 50
-  crop_upgrade_price: 0
-  crop_level: 1
 --- !u!1 &1053306703
 GameObject:
   m_ObjectHideFlags: 0
@@ -43167,7 +42970,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48fe2629dd4b84844a35e632ea21a386, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  in_app_manager: {fileID: 715426716}
 --- !u!4 &1110393075
 Transform:
   m_ObjectHideFlags: 0
@@ -43180,7 +42982,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1112953388
 GameObject:
@@ -43792,7 +43594,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1147065801
 Transform:
   m_ObjectHideFlags: 0
@@ -43813,7 +43615,7 @@ Transform:
   - {fileID: 983080201}
   - {fileID: 1349647545}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1147065802
 MonoBehaviour:
@@ -44356,7 +44158,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1178102525
 GameObject:
@@ -52234,15 +52036,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5aba3714b8c045b40aac294e4f9e18f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgradeButton_crop: {fileID: 1211381049}
-  upgrade_letter_displayer_crop: {fileID: 635477878}
-  perSec_crop: {fileID: 1753787032}
-  level_crop: {fileID: 574917929}
-  upgrade_price_crop: {fileID: 982324894}
-  startGoldByUpgrade_crop: 0
-  startCurrentCost_crop: 1
-  crop_upgrade_price: 0
-  crop_level: 1
 --- !u!1 &1211525070
 GameObject:
   m_ObjectHideFlags: 0
@@ -53132,14 +52925,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ce4a94533c22d74d9935b36f1c8ecca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  save_manager: {fileID: 1110393074}
-  upgradeButton: {fileID: 1242676291}
-  price_displayer_building: {fileID: 1106539094}
-  level_displayer_building: {fileID: 1871024719}
-  start_goldPerSec_building: 0
-  start_current_upgrade_price_building: 1000000
-  upgrade_price_building: 0
-  level_building: 1
 --- !u!114 &1242676291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53702,8 +53487,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bad98db26867b94ca44b6151ae6593e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tabGroup: {fileID: 2001227554}
-  background: {fileID: 0}
 --- !u!1 &1254368356
 GameObject:
   m_ObjectHideFlags: 0
@@ -55482,8 +55265,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bad98db26867b94ca44b6151ae6593e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tabGroup: {fileID: 2001227554}
-  background: {fileID: 0}
 --- !u!1 &1291622659
 GameObject:
   m_ObjectHideFlags: 0
@@ -55820,8 +55601,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bad98db26867b94ca44b6151ae6593e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tabGroup: {fileID: 2001227554}
-  background: {fileID: 0}
 --- !u!1 &1302395569
 GameObject:
   m_ObjectHideFlags: 0
@@ -55949,15 +55728,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a3c33f6631ef5c4197a6f0c8af4452a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgradeButton_resident: {fileID: 0}
-  txt_upgrade_resident: {fileID: 400573164}
-  txt_price_resident: {fileID: 584182832}
-  txt_level_resident: {fileID: 1211280089}
-  txt_coinPerSec_resident: {fileID: 1884871066}
-  start_goldPerSec_resident: 0
-  start_current_upgrade_price_resident: 250
-  upgrade_price_resident: 0
-  level_resident: 1
 --- !u!114 &1304140762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56489,15 +56259,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f29b5fd007a7fe64daef243a69f481da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgradeButton_City: {fileID: 1325331209}
-  txt_upgrade_price_city: {fileID: 1884535154}
-  txt_level_city: {fileID: 2064448229}
-  txt_perSec_city: {fileID: 1996872684}
-  txt_upgrade_letter_city: {fileID: 1595222456}
-  start_gold_by_upgrade_city: 0
-  start_current_cost_city: 7000
-  city_upgrade_price: 0
-  city_level: 1
 --- !u!114 &1325331209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57105,7 +56866,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1988069184}
+      - m_Target: {fileID: 0}
         m_MethodName: Multiply_city_perTen
         m_Mode: 1
         m_Arguments:
@@ -58537,7 +58298,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1988069184}
+      - m_Target: {fileID: 0}
         m_MethodName: Multiply_resident_perTen
         m_Mode: 1
         m_Arguments:
@@ -59494,11 +59255,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe9097f7e14d5904aa6e634f3247c0bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notEnoughCash: {fileID: 315395092}
-  purchaseComplete: {fileID: 583969442}
-  alert_message_text:
-  - {fileID: 1387442429}
-  - {fileID: 589705013}
 --- !u!1 &1433430741
 GameObject:
   m_ObjectHideFlags: 0
@@ -60537,7 +60293,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1988069184}
+      - m_Target: {fileID: 0}
         m_MethodName: Multiply_automation_perTen
         m_Mode: 1
         m_Arguments:
@@ -60976,32 +60732,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d4359ddd5805b54d91e7b64beeb3574, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menu_button_arr:
-  - {fileID: 316134409}
-  - {fileID: 24095981}
-  - {fileID: 665408603}
-  - {fileID: 193655084}
-  exit_option_menu_button: {fileID: 1328158517}
-  option_button: {fileID: 1488428130}
-  go_to_next_map_button: {fileID: 1481169034}
-  select_image: {fileID: 2083205999}
-  option_menu: {fileID: 4388717}
-  language_menu: {fileID: 291943114}
-  crop_menu: {fileID: 1724940457}
-  language_button: {fileID: 657572217}
-  close_language_menu_button: {fileID: 874974554}
-  close_option_menu_button: {fileID: 1328158515}
-  move_to_next_map_button: {fileID: 1481169032}
-  move_to_first_map_button: {fileID: 816340976}
-  crop_menu_button: {fileID: 316134405}
-  crop_menu_first_upgrade_button: {fileID: 1211381047}
-  tutorial_text_panel: {fileID: 1361129648}
-  mainUI_canvas: {fileID: 1347431059}
-  subUI_canvas: {fileID: 981284233}
-  welcome_text: {fileID: 1979675365}
-  building_text: {fileID: 424358382}
-  upgrading_text: {fileID: 1510475069}
-  touch_screen_text: {fileID: 1925994909}
 --- !u!224 &1486182972
 RectTransform:
   m_ObjectHideFlags: 0
@@ -61016,7 +60746,7 @@ RectTransform:
   - {fileID: 2083206000}
   - {fileID: 1361129649}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -61752,15 +61482,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a3c33f6631ef5c4197a6f0c8af4452a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgradeButton_resident: {fileID: 0}
-  txt_upgrade_resident: {fileID: 645243373}
-  txt_price_resident: {fileID: 990758558}
-  txt_level_resident: {fileID: 2065090119}
-  txt_coinPerSec_resident: {fileID: 1884871066}
-  start_goldPerSec_resident: 0
-  start_current_upgrade_price_resident: 100
-  upgrade_price_resident: 0
-  level_resident: 1
 --- !u!114 &1507239860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62118,30 +61839,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 1514628153}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd249f83fdb30fc429f62d4c247eba9d, type: 3}
+  m_Script: {fileID: 11500000, guid: 15d1be64357ab014da9edfd585b14b73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiply_manager: {fileID: 1988069184}
-  crop_menu_text: {fileID: 892649399}
-  city_menu_text: {fileID: 1765518020}
-  mechanization_menu_text: {fileID: 309976444}
-  resident_menu_text: {fileID: 513371057}
-  cropMenu: {fileID: 14858123}
-  cityMenu: {fileID: 992955767}
-  automationMenu: {fileID: 118669785}
-  residentMenu: {fileID: 897190229}
-  cropUpgradeMenu: {fileID: 335348334}
-  cityUpgradeMenu: {fileID: 1116440232}
-  automationUpgradeMenu: {fileID: 1467187646}
-  residentUpgradeMenu: {fileID: 1016067354}
-  cropMenuScroll: {fileID: 1986626433}
-  cityMenuScroll: {fileID: 720921979}
-  automationMenuScroll: {fileID: 1254368359}
-  residentMenuScroll: {fileID: 846174046}
-  cropUpgradeButton: {fileID: 316134410}
-  cityUpgradeButton: {fileID: 24095980}
-  automationUpgradeButton: {fileID: 193655083}
-  residentUpgradeButton: {fileID: 665408602}
+  crop_menu_text: {fileID: 0}
+  crop_menu: {fileID: 0}
+  crop_upgrade_menu: {fileID: 0}
+  crop_menu_scroll: {fileID: 0}
+  crop_upgrade_button: {fileID: 0}
+  city_menu_text: {fileID: 0}
+  city_menu: {fileID: 0}
+  city_upgrade_menu: {fileID: 0}
+  city_menu_scroll: {fileID: 0}
+  city_upgrade_button: {fileID: 0}
+  automation_menu_text: {fileID: 0}
+  automation_menu: {fileID: 0}
+  automation_upgrade_menu: {fileID: 0}
+  automation_menu_scroll: {fileID: 0}
+  automation_upgrade_button: {fileID: 0}
+  resident_menu_text: {fileID: 0}
+  resident_menu: {fileID: 0}
+  resident_upgrade_menu: {fileID: 0}
+  resident_menu_scroll: {fileID: 0}
+  resident_upgrade_button: {fileID: 0}
 --- !u!1 &1519749937
 GameObject:
   m_ObjectHideFlags: 0
@@ -63370,14 +63090,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ce4a94533c22d74d9935b36f1c8ecca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  save_manager: {fileID: 1110393074}
-  upgradeButton: {fileID: 1569994812}
-  price_displayer_building: {fileID: 1968988851}
-  level_displayer_building: {fileID: 1623337884}
-  start_goldPerSec_building: 0
-  start_current_upgrade_price_building: 250000
-  upgrade_price_building: 1000000
-  level_building: 1
 --- !u!114 &1569994812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65768,7 +65480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ce471aec5326114785046cd5b3b8beb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bannerPlacement: GameScreen
+  banner_placement: GameScreen
 --- !u!4 &1668760581
 Transform:
   m_ObjectHideFlags: 0
@@ -65781,7 +65493,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1670279712
 GameObject:
@@ -66047,15 +65759,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f29b5fd007a7fe64daef243a69f481da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgradeButton_City: {fileID: 1677952758}
-  txt_upgrade_price_city: {fileID: 486600406}
-  txt_level_city: {fileID: 102431294}
-  txt_perSec_city: {fileID: 1996872684}
-  txt_upgrade_letter_city: {fileID: 1878461835}
-  start_gold_by_upgrade_city: 0
-  start_current_cost_city: 900
-  city_upgrade_price: 0
-  city_level: 1
 --- !u!114 &1677952758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66915,9 +66618,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bc87f47e82b95747a9d3ca44dd6bf0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  save_manager: {fileID: 1110393074}
-  sum_of_reward_time: 0
-  current_boostValue_gameplay: 0
 --- !u!4 &1725008743
 Transform:
   m_ObjectHideFlags: 0
@@ -66930,7 +66630,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1736551377
 GameObject:
@@ -69382,15 +69082,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a3c33f6631ef5c4197a6f0c8af4452a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgradeButton_resident: {fileID: 0}
-  txt_upgrade_resident: {fileID: 1145676132}
-  txt_price_resident: {fileID: 490071079}
-  txt_level_resident: {fileID: 1924591235}
-  txt_coinPerSec_resident: {fileID: 1884871066}
-  start_goldPerSec_resident: 0
-  start_current_upgrade_price_resident: 1000
-  upgrade_price_resident: 0
-  level_resident: 1
 --- !u!114 &1830153171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70631,15 +70322,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5aba3714b8c045b40aac294e4f9e18f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgradeButton_crop: {fileID: 1856501051}
-  upgrade_letter_displayer_crop: {fileID: 591153875}
-  perSec_crop: {fileID: 1753787032}
-  level_crop: {fileID: 666088720}
-  upgrade_price_crop: {fileID: 528574140}
-  startGoldByUpgrade_crop: 0
-  startCurrentCost_crop: 25
-  crop_upgrade_price: 0
-  crop_level: 1
 --- !u!1 &1861311689
 GameObject:
   m_ObjectHideFlags: 0
@@ -70876,7 +70558,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1988069184}
+      - m_Target: {fileID: 0}
         m_MethodName: Multiply_city_perOne
         m_Mode: 1
         m_Arguments:
@@ -71447,7 +71129,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1887853666
 RectTransform:
   m_ObjectHideFlags: 0
@@ -71485,39 +71167,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f50510cf3472c045bb090afb2ab1719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shopMenu: {fileID: 1887853662}
-  optionMenu: {fileID: 4388722}
-  shop_title_text: {fileID: 2142013779}
-  cash_text_arr:
-  - {fileID: 1025473230}
-  - {fileID: 236754290}
-  - {fileID: 290708548}
-  - {fileID: 1126347255}
-  cash_type_arr:
-  - small_amount_of_cash
-  - medium_amount_of_cash
-  - bag_of_diamond
-  - chest_of_diamond
-  gold_text_arr:
-  - {fileID: 1662878224}
-  - {fileID: 1001919485}
-  - {fileID: 1212807293}
-  - {fileID: 680019822}
-  gold_type_arr:
-  - small_amount_of_gold
-  - medium_amount_of_gold
-  - bag_of_gold
-  - chest_of_gold
-  item_text_arr:
-  - {fileID: 493355159}
-  - {fileID: 299711090}
-  - {fileID: 930697102}
-  - {fileID: 1211525072}
-  item_type_arr:
-  - no_ad
-  - booster_ad
-  - booster_fifteen_minutes
-  - booster_thirty_minutes
 --- !u!1 &1887908246
 GameObject:
   m_ObjectHideFlags: 0
@@ -72542,7 +72191,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1988069184}
+      - m_Target: {fileID: 0}
         m_MethodName: Multiply_resident_perOne
         m_Mode: 1
         m_Arguments:
@@ -73370,7 +73019,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1954366521
 RectTransform:
   m_ObjectHideFlags: 0
@@ -74353,7 +74002,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1988069184}
+      - m_Target: {fileID: 0}
         m_MethodName: Multiply_crop_perOne
         m_Mode: 1
         m_Arguments:
@@ -74483,7 +74132,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1988069184}
+      - m_Target: {fileID: 0}
         m_MethodName: Multiply_city_perFifty
         m_Mode: 1
         m_Arguments:
@@ -74739,9 +74388,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1988069182}
-  - component: {fileID: 1988069184}
+  - component: {fileID: 1988069183}
   m_Layer: 5
-  m_Name: UpgradeMultiplyManager
+  m_Name: Upgrade_multiplier_manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74754,19 +74403,19 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1988069181}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -344}
+  m_LocalScale: {x: 0.01888027, y: 0.01888027, z: 0.01888027}
   m_Children: []
-  m_Father: {fileID: 6085494}
-  m_RootOrder: 5
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -1798.1731, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1988069184
+--- !u!114 &1988069183
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -74775,28 +74424,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 1988069181}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a77891143e96b034487a228895e15058, type: 3}
+  m_Script: {fileID: 11500000, guid: 09a2ae4f786e3fa43848988fb511ec9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  crop_per_one_button: {fileID: 1985740557}
-  crop_per_ten_button: {fileID: 68206400}
-  crop_per_fifty_button: {fileID: 227671813}
-  city_per_one_button: {fileID: 1867528553}
-  city_per_ten_button: {fileID: 1343970422}
-  city_per_fifty_button: {fileID: 1986242706}
-  resident_per_one_button: {fileID: 1916945674}
-  resident_per_ten_button: {fileID: 1378950011}
-  resident_per_fifty_button: {fileID: 100648035}
-  automation_per_one_button: {fileID: 5969409}
-  automation_per_ten_button: {fileID: 1473977728}
-  automation_per_fifty_button: {fileID: 169260815}
-  selected_button_orange_sprite: {fileID: 21300000, guid: 551002b450f6b0b4aa742829327912e7,
+  parent_arr:
+  - {fileID: 1156604579}
+  - {fileID: 1478644713}
+  - {fileID: 1736551378}
+  - {fileID: 652147927}
+  current_multiplier: 0
+  selected_button_red_sprite: {fileID: 21300000, guid: 045134ae6a4acb2448ca86c5743a8879,
     type: 3}
-  unselected_button_orange_sprite: {fileID: 21300000, guid: 045134ae6a4acb2448ca86c5743a8879,
+  unselected_button_red_sprite: {fileID: 21300000, guid: 551002b450f6b0b4aa742829327912e7,
     type: 3}
-  selected_button_blue_sprite: {fileID: 21300000, guid: 079ee4c5484afc7438ea61d08e4a9d5f,
+  selected_button_blue_sprite: {fileID: 21300000, guid: e13bb124022be774f9b8e6e7e6d53a6c,
     type: 3}
-  unselected_button_blue_sprite: {fileID: 21300000, guid: e13bb124022be774f9b8e6e7e6d53a6c,
+  unselected_button_blue_sprite: {fileID: 21300000, guid: 079ee4c5484afc7438ea61d08e4a9d5f,
     type: 3}
 --- !u!1 &1990195882
 GameObject:
@@ -75103,15 +74746,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83954cb31af1c3b449942a61c96b54bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tabButtons: []
-  tabIdle: {fileID: 21300000, guid: fcb69d15328b4b64fa2ddbde03226354, type: 3}
-  tabHover: {fileID: 21300000, guid: ffdc18100bbefc24a810624e89e8e9c6, type: 3}
-  tabActive: {fileID: 21300000, guid: 045134ae6a4acb2448ca86c5743a8879, type: 3}
-  selectedTab: {fileID: 0}
-  objectToSwap:
-  - {fileID: 1981242657}
-  - {fileID: 1850818829}
-  - {fileID: 805390337}
+  tab_button_list: []
+  object_to_swap_list: []
+  tab_idle: {fileID: 0}
+  tab_hover: {fileID: 0}
+  tab_active: {fileID: 0}
+  selected_tab: {fileID: 0}
 --- !u!1 &2003530052
 GameObject:
   m_ObjectHideFlags: 0
@@ -75751,15 +75391,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d8f42b65d20af342a9b8b0b00b7d55b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgradeButton_mechanization: {fileID: 0}
-  txt_price_automation: {fileID: 1608928270}
-  txt_level_automation: {fileID: 270473169}
-  txt_coinPerSec_automation: {fileID: 1887908248}
-  txt_upgrade_automation: {fileID: 1976148412}
-  start_goldPerSec_automation: 0
-  start_current_goldPerSec_automation: 25000
-  upgrade_price_automation: 0
-  level_automation: 1
 --- !u!114 &2031549929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77097,15 +76728,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a3c33f6631ef5c4197a6f0c8af4452a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgradeButton_resident: {fileID: 0}
-  txt_upgrade_resident: {fileID: 1532304757}
-  txt_price_resident: {fileID: 1895301384}
-  txt_level_resident: {fileID: 768627462}
-  txt_coinPerSec_resident: {fileID: 1884871066}
-  start_goldPerSec_resident: 0
-  start_current_upgrade_price_resident: 2000
-  upgrade_price_resident: 0
-  level_resident: 1
 --- !u!114 &2088302494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79260,7 +78882,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npc_manager: {fileID: 1147065802}
-  pos_arr: []
+  m_pos_arr: []
 --- !u!114 &2868290100188982278
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79274,7 +78896,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npc_manager: {fileID: 1147065802}
-  pos_arr: []
+  m_pos_arr: []
 --- !u!1 &2911652852013576428
 GameObject:
   m_ObjectHideFlags: 0
@@ -87468,7 +87090,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npc_manager: {fileID: 1147065802}
-  pos_arr: []
+  m_pos_arr: []
 --- !u!114 &7466413004850371354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87482,7 +87104,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npc_manager: {fileID: 1147065802}
-  pos_arr: []
+  m_pos_arr: []
 --- !u!1 &7537346045867060841
 GameObject:
   m_ObjectHideFlags: 0
@@ -88826,7 +88448,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npc_manager: {fileID: 1147065802}
-  pos_arr: []
+  m_pos_arr: []
 --- !u!212 &8115230847191570325
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -89896,7 +89518,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npc_manager: {fileID: 1147065802}
-  pos_arr: []
+  m_pos_arr: []
 --- !u!4 &8115230847365302770
 Transform:
   m_ObjectHideFlags: 0

@@ -19,6 +19,15 @@ public enum e_character_move_type
     RIGHT = 1
 };
 
+public enum e_upgrade_menu_type
+{
+    CROP,
+    CITY,
+    RESIDENT,
+    AUTOMATION,
+    MAX
+}
+
 public enum e_multiplier_quantity // Multiplier button upgrade
 {
     multiplier_per_one,

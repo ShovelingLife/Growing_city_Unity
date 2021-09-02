@@ -8,6 +8,12 @@ public class Upgrade_button_automation : Upgrade_button_core
         m_current_gold_quantity = Data_controller.instance.gold_per_sec_automation;
     }
 
+    // A function that returns all upgradable objects
+    public override Upgrade_button_core[] Get_all_objects()
+    {
+        return Resources.FindObjectsOfTypeAll<Upgrade_button_automation>();
+    }
+
     // 업데이트 아이템 가격 및 초당 생성하는 돈
     protected override void Update_price()
     {

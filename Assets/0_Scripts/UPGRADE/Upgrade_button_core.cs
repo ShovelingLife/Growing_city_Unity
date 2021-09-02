@@ -79,6 +79,12 @@ public class Upgrade_button_core : MonoBehaviour
         }
     }
 
+    // A function that returns all upgradable objects
+    public virtual Upgrade_button_core[] Get_all_objects()
+    {
+        return null;
+    }
+
     // 텍스트를 표시해주는 함수
     protected void Show_all_text()
     {

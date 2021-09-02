@@ -34,7 +34,7 @@ public class Ms_seller : MonoBehaviour
     int      day = 0;
 
     // 스크롤
-    public Auto_scroll auto_scroll;
+    public Upgrade_menu_core auto_scroll;
 
 
     private void Awake()

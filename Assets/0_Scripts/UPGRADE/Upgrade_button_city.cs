@@ -8,6 +8,12 @@ public class Upgrade_button_city : Upgrade_button_core
         m_current_gold_quantity = Data_controller.instance.gold_per_click_resident;        
     }
 
+    // A function that returns all upgradable objects
+    public override Upgrade_button_core[] Get_all_objects()
+    {
+        return Resources.FindObjectsOfTypeAll<Upgrade_button_city>();
+    }
+
     // 업그레이드 비용을 증가해주는 메소드
     protected override void Update_price()
     {

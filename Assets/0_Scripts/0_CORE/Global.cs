@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Global : MonoBehaviour
 {
-    public static readonly string game_ID;
-
 #if UNITY_IOS
     public static readonly string game_ID = "3502466"; 
 #elif UNITY_ANDROID

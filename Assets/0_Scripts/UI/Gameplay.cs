@@ -11,7 +11,7 @@ using UnityEngine.UIElements;
 public class Gameplay : MonoBehaviour
 {
     // 게임 관련
-    public Auto_scroll auto_scroll;
+    public Upgrade_menu_core auto_scroll;
     public Screen_shake shaker;
     public float shakeDuration = 1f;
     // UI 관련
