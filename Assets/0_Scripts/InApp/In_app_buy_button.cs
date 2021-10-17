@@ -5,79 +5,47 @@ using UnityEngine.UI;
 
 public class In_app_buy_button : MonoBehaviour
 {
-    public enum e_item_type
-    {
-        DIAMONDS_50,
-        DIAMONDS_125,
-        DIAMONDS_250,
-        DIAMONDS_500,
-        NO_ADS
-    }
-    public e_item_type itemType;
-    public Text        priceText;
-    string             defaultText;
+    In_app_manager     m_in_app_inst;
+    public e_item_type item_type;
+    public Text        txt_price;
+    string             txt_default;
 
     private void Start()
     {
-        defaultText = priceText.text;
-        StartCoroutine(LoadPriceRoutine());
+        txt_default = txt_price.text;
+        StartCoroutine(IE_load_price_routine());
+        m_in_app_inst = In_app_manager.instance;
     }
+
     public void Purchase_cash()
     {
         Audio_manager.instance.Play_touch_sound();
 
-        switch (itemType)
+        switch (item_type)
         {
-            case e_item_type.DIAMONDS_50:
-                In_app_manager.instance.Buy50Diamonds();
-                break;
-
-            case e_item_type.DIAMONDS_125:
-                In_app_manager.instance.Buy125Diamonds();
-                break;
-
-            case e_item_type.DIAMONDS_250:
-                In_app_manager.instance.Buy250Diamonds();
-                break;
-
-            case e_item_type.DIAMONDS_500:
-                In_app_manager.instance.Buy500Diamonds();
-                break;
-
-            case e_item_type.NO_ADS:
-                In_app_manager.instance.BuyNoAds();
-                break;
+            case e_item_type.DIAMONDS_50:  m_in_app_inst.Buy_50_diamonds();  break;
+            case e_item_type.DIAMONDS_125: m_in_app_inst.Buy_125_diamonds(); break;
+            case e_item_type.DIAMONDS_250: m_in_app_inst.Buy_250_diamonds(); break;
+            case e_item_type.DIAMONDS_500: m_in_app_inst.Buy_500_diamonds(); break;
+            case e_item_type.NO_ADS:       m_in_app_inst.Buy_no_ads();       break;
         }
     }
-    IEnumerator LoadPriceRoutine()
+
+    IEnumerator IE_load_price_routine()
     {
-        while (!In_app_manager.instance.IsInitialized())
-            yield return null;
+        while (!m_in_app_inst.IsInitialized())
+                yield return null;
 
-        string loadedPrice = "";
+        string loaded_price = "";
 
-        switch (itemType)
+        switch (item_type)
         {
-            case e_item_type.DIAMONDS_50:
-                loadedPrice = In_app_manager.instance.getProducePriceFromStore(In_app_manager.instance.DIAMONDS_50);
-                break;
-
-            case e_item_type.DIAMONDS_125:
-                loadedPrice = In_app_manager.instance.getProducePriceFromStore(In_app_manager.instance.DIAMONDS_125);
-                break;
-
-            case e_item_type.DIAMONDS_250:
-                loadedPrice = In_app_manager.instance.getProducePriceFromStore(In_app_manager.instance.DIAMONDS_250);
-                break;
-
-            case e_item_type.DIAMONDS_500:
-                loadedPrice = In_app_manager.instance.getProducePriceFromStore(In_app_manager.instance.DIAMONDS_500);
-                break;
-
-            case e_item_type.NO_ADS:
-                loadedPrice = In_app_manager.instance.getProducePriceFromStore(In_app_manager.instance.NO_ADS);
-                break;
+            case e_item_type.DIAMONDS_50:  loaded_price = m_in_app_inst.Get_produce_price_from_store(m_in_app_inst.DIAMONDS_50);  break;
+            case e_item_type.DIAMONDS_125: loaded_price = m_in_app_inst.Get_produce_price_from_store(m_in_app_inst.DIAMONDS_125); break;
+            case e_item_type.DIAMONDS_250: loaded_price = m_in_app_inst.Get_produce_price_from_store(m_in_app_inst.DIAMONDS_250); break;
+            case e_item_type.DIAMONDS_500: loaded_price = m_in_app_inst.Get_produce_price_from_store(m_in_app_inst.DIAMONDS_500); break;
+            case e_item_type.NO_ADS:       loaded_price = m_in_app_inst.Get_produce_price_from_store(m_in_app_inst.NO_ADS);       break;
         }
-        priceText.text = defaultText + " " + loadedPrice;
+        txt_price.text = txt_default + " " + loaded_price;
     }
 }

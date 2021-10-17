@@ -5,78 +5,61 @@ using UnityEngine.UI;
 
 public class Shop_alert_manager : Singleton_local<Shop_alert_manager>
 {
-    public GameObject not_enough_cash_txt_obj;
-    public GameObject purchase_complete_txt_obj;
-    public Text[]     alert_message_txt_arr = new Text[2];
+    // 구매하기 위한 보석 부족
+    GameObject m_not_enough_cash_obj;
+    Text m_txt_not_enough_cash;
+
+    // 보석 구매 완료
+    GameObject m_purchase_complete_obj;
+    Text m_txt_purchase_complete;
 
 
-    private void Awake()
+    private void Start()
     {
-        not_enough_cash_txt_obj.SetActive(false);
-        purchase_complete_txt_obj.SetActive(false);
+        m_not_enough_cash_obj = transform.GetChild(0).gameObject;
+        m_txt_not_enough_cash = m_not_enough_cash_obj.transform.GetChild(1).GetComponent<Text>();
+
+        m_purchase_complete_obj = transform.GetChild(1).gameObject;
+        m_txt_purchase_complete = m_purchase_complete_obj.transform.GetChild(1).GetComponent<Text>();
+
+        m_not_enough_cash_obj.SetActive(false);
+        m_purchase_complete_obj.SetActive(false);
+    }
+
+    // 다 꺼둠
+    public void Turn_off()
+    {
+        m_not_enough_cash_obj.SetActive(false);
+        m_purchase_complete_obj.SetActive(false);
     }
 
     // 돈이 부족하다고 표시해주는 코루틴 실행
-    public void Run_not_enough_money_alert()
+    public void Run_not_enough_cash_alert()
     {
-        switch (Lean.Localization.LeanLocalization.CurrentLanguage)
-        {
-            case "English":
-                alert_message_txt_arr[1].text = "Not enough cash.";
-                break;
-
-            case "Spanish":
-                alert_message_txt_arr[1].text = "Diamante insuficiente.";
-                break;
-
-            case "Korean":
-                alert_message_txt_arr[1].text = "보석이 부족합니다.";
-                break;
-        }
-        StartCoroutine("IE_Not_enough_cash");
+        m_txt_not_enough_cash.text = Csv_loader_manager.instance[Csv_loader_manager.instance.Get_hash_code_by_str("INSUFFICIENT_MONEY")].ToString();
+        StartCoroutine(IE_not_enough_cash());
     }
 
     // 구매 완료했다고 표시해주는 코루틴 실행
     public void Run_thanks_for_buying_alert()
     {
-        switch (Lean.Localization.LeanLocalization.CurrentLanguage)
-        {
-            case "English":
-                alert_message_txt_arr[0].text = "Thanks for buying!";
-                break;
-
-            case "Spanish":
-                alert_message_txt_arr[0].text = "Gracias por comprar!";
-                break;
-
-            case "Korean":
-                alert_message_txt_arr[0].text = "구매해주셔서 감사합니다!";
-                break;
-        }
-        StartCoroutine("IE_Purchase_complete");
-    }
-
-    // 모든 코루틴을 정지
-    public void Stop_all_coroutines()
-    {
-        not_enough_cash_txt_obj.SetActive(false);
-        purchase_complete_txt_obj.SetActive(false);
-        StopAllCoroutines();
+        m_txt_not_enough_cash.text = Csv_loader_manager.instance[Csv_loader_manager.instance.Get_hash_code_by_str("THANKS_FOR_PURCHASE")].ToString();
+        StartCoroutine(IE_purchase_complete());
     }
 
     // 돈이 부족해서 경고하는 코루틴
     IEnumerator IE_not_enough_cash()
     {
-        not_enough_cash_txt_obj.SetActive(true);
+        m_not_enough_cash_obj.SetActive(true);
         yield return new WaitForSeconds(0.75f);
-        not_enough_cash_txt_obj.SetActive(false);
+        m_not_enough_cash_obj.SetActive(false);
     }
 
     // 구매 완료 코루틴
     IEnumerator IE_purchase_complete()
     {
-        purchase_complete_txt_obj.SetActive(true);
+        m_purchase_complete_obj.SetActive(true);
         yield return new WaitForSeconds(1f);
-        purchase_complete_txt_obj.SetActive(false);
+        m_purchase_complete_obj.SetActive(false);
     }
 }

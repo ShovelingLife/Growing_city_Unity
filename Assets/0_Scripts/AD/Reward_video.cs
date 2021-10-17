@@ -51,7 +51,7 @@ public class Reward_video : MonoBehaviour , IUnityAdsListener
                      Time_manager.instance.Set_gameplay_booster_values(false, 300f);
 
             else if (type_of_ad == 2) 
-                     Reward_after_login.instance.Close_reward_gold_watching_ad();
+                     Time_manager.instance.Get_sum_of_time_reward(2);
         }
         else if (showResult == ShowResult.Skipped)
                  return;

@@ -27,10 +27,11 @@ public enum e_upgrade_menu_type
     AUTOMATION,
     MAX
 }
-
-public enum e_multiplier_quantity // Multiplier button upgrade
+public enum e_item_type
 {
-    multiplier_per_one,
-    multiplier_per_ten,
-    multiplier_per_fifty
+    DIAMONDS_50,
+    DIAMONDS_125,
+    DIAMONDS_250,
+    DIAMONDS_500,
+    NO_ADS
 }

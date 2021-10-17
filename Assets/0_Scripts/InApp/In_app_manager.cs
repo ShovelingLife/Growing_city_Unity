@@ -66,34 +66,34 @@ public class In_app_manager : Singleton_local<In_app_manager> , IStoreListener
     }
 
 
-    public void Buy50Diamonds()
+    public void Buy_50_diamonds()
     {
-        BuyProductID(DIAMONDS_50);
+        Buy_product_ID(DIAMONDS_50);
     }
 
-    public void Buy125Diamonds()
+    public void Buy_125_diamonds()
     {
-        BuyProductID(DIAMONDS_125);
+        Buy_product_ID(DIAMONDS_125);
     }
 
-    public void Buy250Diamonds()
+    public void Buy_250_diamonds()
     {
-        BuyProductID(DIAMONDS_250);
+        Buy_product_ID(DIAMONDS_250);
     }
 
-    public void Buy500Diamonds()
+    public void Buy_500_diamonds()
     {
-        BuyProductID(DIAMONDS_500);
+        Buy_product_ID(DIAMONDS_500);
     }
 
-    public void BuyNoAds()
+    public void Buy_no_ads()
     {
         // Buy the non-consumable product using its general identifier. Expect a response either 
         // through ProcessPurchase or OnPurchaseFailed asynchronously.
-        BuyProductID(NO_ADS);
+        Buy_product_ID(NO_ADS);
     }
 
-    public string getProducePriceFromStore(string id)
+    public string Get_produce_price_from_store(string id)
     {
         if (m_StoreController != null && 
             m_StoreController.products != null)
@@ -103,7 +103,7 @@ public class In_app_manager : Singleton_local<In_app_manager> , IStoreListener
             return "";
     }
 
-    void BuyProductID(string productId)
+    void Buy_product_ID(string productId)
     {
         // If Purchasing has been initialized ...
         if (IsInitialized())
@@ -138,7 +138,7 @@ public class In_app_manager : Singleton_local<In_app_manager> , IStoreListener
 
     // Restore purchases previously made by this customer. Some platforms automatically restore purchases, like Google. 
     // Apple currently requires explicit purchase restoration for IAP, conditionally displaying a password prompt.
-    public void RestorePurchases()
+    public void Restore_purchases()
     {
         // If Purchasing has not yet been set up ...
         if (!IsInitialized())
@@ -173,6 +173,13 @@ public class In_app_manager : Singleton_local<In_app_manager> , IStoreListener
         }
     }
 
+    // AD 배너광고 변경 해주는 함수
+    void Disable_ad_buy_button()
+    {
+        ad_buy_button.interactable = false;
+    }
+
+
     //  
     // --- IStoreListener
     //
@@ -201,47 +208,38 @@ public class In_app_manager : Singleton_local<In_app_manager> , IStoreListener
         if (String.Equals(args.purchasedProduct.definition.id, DIAMONDS_50, StringComparison.Ordinal))
         {
             Debug.Log(string.Format("ProcessPurchase: PASS. Product: '{0}'", args.purchasedProduct.definition.id));
-        Shop_manager.instance.addCash(50);
+            Shop_manager.instance.Add_cash(50);
         }
         else if (String.Equals(args.purchasedProduct.definition.id, DIAMONDS_125, StringComparison.Ordinal))
         {
             Debug.Log(string.Format("ProcessPurchase: PASS. Product: '{0}'", args.purchasedProduct.definition.id));
-        Shop_manager.instance.addCash(125);
-    }
-    else if (String.Equals(args.purchasedProduct.definition.id, DIAMONDS_250, StringComparison.Ordinal))
-    {
-        Debug.Log(string.Format("ProcessPurchase: PASS. Product: '{0}'", args.purchasedProduct.definition.id));
-        Shop_manager.instance.addCash(250);
-    }
-    else if (String.Equals(args.purchasedProduct.definition.id, DIAMONDS_500, StringComparison.Ordinal))
-    {
-        Debug.Log(string.Format("ProcessPurchase: PASS. Product: '{0}'", args.purchasedProduct.definition.id));
-        Shop_manager.instance.addCash(500);
-    }
-    // Or ... a subscription product has been purchased by this user.
-    else if (String.Equals(args.purchasedProduct.definition.id, NO_ADS, StringComparison.Ordinal))
+            Shop_manager.instance.Add_cash(125);
+        }
+        else if (String.Equals(args.purchasedProduct.definition.id, DIAMONDS_250, StringComparison.Ordinal))
         {
             Debug.Log(string.Format("ProcessPurchase: PASS. Product: '{0}'", args.purchasedProduct.definition.id));
-        Disable_ad_buy_button();
-        PlayerPrefs.SetInt("ad_bought", 1);
-        PlayerPrefs.Save();
+            Shop_manager.instance.Add_cash(250);
+        }
+        else if (String.Equals(args.purchasedProduct.definition.id, DIAMONDS_500, StringComparison.Ordinal))
+        {
+            Debug.Log(string.Format("ProcessPurchase: PASS. Product: '{0}'", args.purchasedProduct.definition.id));
+            Shop_manager.instance.Add_cash(500);
+        }
+        // Or ... a subscription product has been purchased by this user.
+        else if (String.Equals(args.purchasedProduct.definition.id, NO_ADS, StringComparison.Ordinal))
+        {
+            Debug.Log(string.Format("ProcessPurchase: PASS. Product: '{0}'", args.purchasedProduct.definition.id));
+            Disable_ad_buy_button();
+            PlayerPrefs.SetInt("ad_bought", 1);
+            PlayerPrefs.Save();
         }
         else
-        {
             Debug.Log(string.Format("ProcessPurchase: FAIL. Unrecognized product: '{0}'", args.purchasedProduct.definition.id));
-    }
 
         // Return a flag indicating whether this product has completely been received, or if the application needs 
         // to be reminded of this purchase at next app launch. Use PurchaseProcessingResult.Pending when still 
         // saving purchased products to the cloud, and when that save is delayed. 
         return PurchaseProcessingResult.Complete;
-    }
-
-
-    // AD 배너광고 변경 해주는 함수
-    void Disable_ad_buy_button()
-    {
-        ad_buy_button.interactable = false;
     }
 
     public void OnPurchaseFailed(Product product, PurchaseFailureReason failureReason)

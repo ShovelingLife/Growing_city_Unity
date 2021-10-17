@@ -21,14 +21,14 @@ public class Json_helper
     public static string ToJson<T>(T[] _array)
     {
         Wrapper<T> wrapper = new Wrapper<T>();
-        wrapper.items_arr = _array;
+        wrapper.items_arr  = _array;
         return JsonUtility.ToJson(wrapper);
     }
 
     public static string ToJson<T>(T[] _array, bool _prettyPrint)
     {
         Wrapper<T> wrapper = new Wrapper<T>();
-        wrapper.items_arr = _array;
+        wrapper.items_arr  = _array;
         return JsonUtility.ToJson(wrapper, _prettyPrint);
     }
 }

@@ -1,0 +1,123 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
+using UnityEngine.UI;
+
+// 각 업그레이드 버튼
+
+[Serializable]
+public class Upgrade_button_storage
+{
+    public Upgrade_button_crop[]       arr_crop_upgrade_button       = null;
+    public Upgrade_button_city[]       arr_city_upgrade_button       = null;
+    public Upgrade_button_resident[]   arr_resident_upgrade_button   = null;
+    public Upgrade_button_automation[] arr_automation_upgrade_button = null;
+    public int                         total_crop_upgrade            = 0;
+    public int                         total_city_upgrade            = 0;
+    public int                         total_resident_upgrade        = 0;
+    public int                         total_automation_upgrade      = 0;
+}
+
+// 최상위 자원들을 관리
+public class Upgrade_menu_manager : Singleton_local<Upgrade_menu_manager>
+{
+    Scroll_menu[]           m_arr_menu = null;
+    Upgrade_property_core[] m_arr_per_sec_core;
+    [SerializeField]
+    Button[]      m_arr_menu_button = null;
+
+    public Upgrade_button_storage upgrade_button_storage;
+
+    // Start is called before the first frame update
+    void Awake()
+    {
+        Init();
+        Init_buttons();
+        Close_all_menu();
+    }
+
+    // 초기화
+    void Init()
+    {
+        m_arr_menu         = GameObject.FindObjectsOfType<Scroll_menu>();
+        m_arr_per_sec_core = GameObject.FindObjectsOfType<Upgrade_property_core>();
+        int menu_size      = m_arr_menu.Length;
+        m_arr_menu_button  = new Button[menu_size];
+
+        // 버튼 추가
+        for (int i = 0; i < menu_size; i++)
+        {
+            m_arr_menu_button[i] = m_arr_menu[i].transform.GetChild(0).gameObject.GetComponent<Button>();
+            m_arr_menu_button[i].onClick.AddListener(m_arr_menu[i].Check_scrolling_direction);
+        }
+    }
+
+    // 버튼 초기화
+    void Init_buttons()
+    {
+        // 전체 업그레이드 버튼들을 가져옴
+        upgrade_button_storage.arr_crop_upgrade_button       = Resources.FindObjectsOfTypeAll<Upgrade_button_crop>();
+        upgrade_button_storage.arr_city_upgrade_button       = Resources.FindObjectsOfTypeAll<Upgrade_button_city>();
+        upgrade_button_storage.arr_resident_upgrade_button   = Resources.FindObjectsOfTypeAll<Upgrade_button_resident>();
+        upgrade_button_storage.arr_automation_upgrade_button = Resources.FindObjectsOfTypeAll<Upgrade_button_automation>();
+
+        // 크기를 지정
+        upgrade_button_storage.total_crop_upgrade       = upgrade_button_storage.arr_crop_upgrade_button.Length;
+        upgrade_button_storage.total_city_upgrade       = upgrade_button_storage.arr_city_upgrade_button.Length;
+        upgrade_button_storage.total_resident_upgrade   = upgrade_button_storage.arr_resident_upgrade_button.Length;
+        upgrade_button_storage.total_automation_upgrade = upgrade_button_storage.arr_automation_upgrade_button.Length;
+
+        // 이름 순으로 정렬
+        upgrade_button_storage.arr_crop_upgrade_button.OrderBy(x => x.name);
+        upgrade_button_storage.arr_city_upgrade_button.OrderBy(x => x.name);
+        upgrade_button_storage.arr_resident_upgrade_button.OrderBy(x => x.name);
+        upgrade_button_storage.arr_automation_upgrade_button.OrderBy(x => x.name);
+    }
+
+    // 모든 메뉴를 열음
+    public void Open_all_menu()
+    {
+        foreach (var item in m_arr_menu)
+                 item.Scrolling_menu_up();
+    }
+
+    // 모든 메뉴를 닫음
+    public void Close_all_menu()
+    {
+        foreach (var item in m_arr_menu)
+                 item.Scrolling_menu_down();
+    }
+
+    // 스크롤 원위치 시킴
+    public void Set_scroll_at_original_pos(int _index)
+    {
+        // Rect를 갖고와서 원위치
+        RectTransform rect = m_arr_per_sec_core[_index].GetComponent<RectTransform>();
+        Vector3 new_pos = rect.transform.localPosition;
+        new_pos.y = -945f;
+        rect.transform.localPosition = new_pos;
+    }
+
+    // 전 작물 업그레이드 비용들에 값을 곱해줌 1
+    public void Apply_multiplier1_on_crop_upgrade_menu()
+    {
+        foreach (var item in upgrade_button_storage.arr_crop_upgrade_button)
+                 item.Upgrade_multiplier(1);
+    }
+    
+    // 전 작물 업그레이드 비용들에 값을 곱해줌 10
+    public void Apply_multiplier10_on_crop_upgrade_menu()
+    {
+        foreach (var item in upgrade_button_storage.arr_crop_upgrade_button)
+                 item.Upgrade_multiplier(10);
+    }
+
+    // 전 작물 업그레이드 비용들에 값을 곱해줌 50
+    public void Apply_multiplier50_on_crop_upgrade_menu()
+    {
+        foreach (var item in upgrade_button_storage.arr_crop_upgrade_button)
+                 item.Upgrade_multiplier(50);
+    }
+}

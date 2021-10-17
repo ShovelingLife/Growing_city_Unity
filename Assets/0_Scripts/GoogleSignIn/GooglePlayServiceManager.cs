@@ -4,55 +4,28 @@ using UnityEngine;
 using UnityEngine.SocialPlatforms;
 using GooglePlayGames;
 using GooglePlayGames.BasicApi;
-public class GooglePlayServiceManager : MonoBehaviour
+public class GooglePlayServiceManager : Singleton_global<GooglePlayServiceManager>
 {
-    static GooglePlayServiceManager instance;
-
-    public static GooglePlayServiceManager Instance
-    {
-        get
-        {
-            return instance;
-        }
-    }
     public bool isAuthenticated
     {
-        get
-        {
-            return Social.localUser.authenticated;
-        }
+        get{ return Social.localUser.authenticated; }
     }
-    private void Awake()
-    {
-        if (instance != null && instance != this)
-        {
-            Destroy(this.gameObject);
-        }
-        else
-        {
-            instance = this;
-        }
-    }
+
     private void Start()
     {
         Social.localUser.Authenticate((bool success) =>
         {
             if (success)
-            {
                 Debug.Log("Login Success");
-            }
-            else if (!success)
-            {
+
+            else
                 Debug.Log("Login Failed");
-            }
         });
         if (GooglePlayServiceManager.instance.isAuthenticated)
-        {
-            GooglePlayServiceManager.instance.completeFirstLogin();
-        } 
+            GooglePlayServiceManager.instance.Complete_first_login();
     }
 
-    public void LogIn()
+    public void Log_in()
     {
         PlayGamesClientConfiguration config = new PlayGamesClientConfiguration.Builder().EnableSavedGames().Build();
         PlayGamesPlatform.InitializeInstance(config);
@@ -60,20 +33,20 @@ public class GooglePlayServiceManager : MonoBehaviour
         PlayGamesPlatform.Activate();
     }
 
-    public void showLeaderboard()
+    public void Show_leader_board()
     {
         if (!isAuthenticated)
         {
-            LogIn();
+            Log_in();
             return;
         }
         Social.ShowLeaderboardUI();
     }
-    public void completeFirstLogin()
+    public void Complete_first_login()
     {
         if (!isAuthenticated)
         {
-            LogIn();
+            Log_in();
             return;
         }
         PlayGamesPlatform.Activate();

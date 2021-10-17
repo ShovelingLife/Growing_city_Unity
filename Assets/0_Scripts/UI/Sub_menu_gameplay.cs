@@ -45,7 +45,7 @@ public class Sub_menu_gameplay : MonoBehaviour
     // 현재 돈이랑 초당 얻는 돈을 출력하는 함수
     void Show_current_coin_text()
     {
-        m_translation_per_sec           = UI_translation.Translate_perSec_text();
+        //m_translation_per_sec           = UI_translation.Translate_perSec_text();
         txt_current_coin.text         = Large_number.ToString(Data_controller.instance.gold).ToString();
         txt_current_coin_per_sec.text = m_translation_per_sec + " " + Large_number.ToString(Data_controller.instance.gold_per_sec_building).ToString();
     }

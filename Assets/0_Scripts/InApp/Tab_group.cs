@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class Tab_group : MonoBehaviour
 {
-    public List<Tab_button> tab_button_list = new List<Tab_button>();
-    public List<GameObject> object_to_swap_list;
+    List<Tab_button>        m_lst_tab_button = new List<Tab_button>();
+    public List<GameObject> lst_object_to_swap;
     public Sprite           tab_idle;
     public Sprite           tab_hover;
     public Sprite           tab_active;
@@ -15,7 +15,7 @@ public class Tab_group : MonoBehaviour
 
     public void Subscribe(Tab_button button)
     {
-        tab_button_list.Add(button);
+        m_lst_tab_button.Add(button);
     }
 
     public void On_tab_enter(Tab_button button)
@@ -24,7 +24,7 @@ public class Tab_group : MonoBehaviour
 
         if (selected_tab == null || 
             button != selected_tab) 
-            button.background.sprite = tab_hover;
+            button.img_background.sprite = tab_hover;
     }
 
     public void On_tab_exit(Tab_button button)
@@ -37,29 +37,28 @@ public class Tab_group : MonoBehaviour
         Audio_manager.instance.Play_touch_sound();
         selected_tab = button;
         Reset_tabs();
-        button.background.sprite = tab_active;
+        button.img_background.sprite = tab_active;
         int index = button.transform.GetSiblingIndex();
 
-        for(int i = 0; i < object_to_swap_list.Count; i++)
+        for(int i = 0; i < lst_object_to_swap.Count; i++)
         {
             if (i == index) 
-                object_to_swap_list[i].SetActive(true);
+                lst_object_to_swap[i].SetActive(true);
 
             else 
-                object_to_swap_list[i].SetActive(false);
+                lst_object_to_swap[i].SetActive(false);
         }
-        Shop_alert_manager.instance.Stop_all_coroutines();
     }
 
     public void Reset_tabs()
     {
-        foreach(Tab_button button in tab_button_list)
+        foreach(Tab_button button in m_lst_tab_button)
         {
             if (selected_tab == null && 
                 button == selected_tab) 
                 continue;
 
-            button.background.sprite = tab_idle;
+            button.img_background.sprite = tab_idle;
         }
     }
 }

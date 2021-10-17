@@ -1,0 +1,43 @@
+// 수정 요망
+
+
+/Shop_alert_manager.cs 
+/20라인
+/42라인
+
+
+Upgrade_message_manager.cs
+
+/22라인
+/37라인
+
+
+Shop_manager
+
+138라인
+166라인
+194라인
+211라인
+233라인
+
+
+Ms Seller
+
+72라인
+172라인
+197라인
+
+
+Sub menu gameplay
+
+48라인
+
+
+GameManager
+
+102라인
+
+
+Upgrade button core
+
+69라인

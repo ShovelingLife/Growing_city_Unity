@@ -1,0 +1,107 @@
+using System.Collections;
+using System.Collections.Generic;
+using System.IO;
+using UnityEngine;
+using UnityEngine.UI;
+
+// 각 업그레이드 항목을 담당하는 클래스
+public class Upgrade_button_core : MonoBehaviour
+{
+    [SerializeField]
+    protected Button         m_upgrade_button; // 업그레이드 버튼
+    [SerializeField]
+    protected Text           m_txt_price;      // 현재 가격
+    [SerializeField]
+    protected Text           m_txt_level;      // 현재 레벨
+
+    // 텍스트 번역
+    protected string         m_per_sec_translation;
+    protected string         m_level_text_translation;
+    protected string         m_upgrade_text_translation;
+
+    // 업그레이드 비용 관련
+    public    double         upgrade_price;
+    protected double         m_current_gold_quantity;
+    public    float          cost_pow = 0f;
+    [HideInInspector]
+    public    int            current_level = 1;
+    protected int            m_upgrade_multiplier = 1;
+
+
+    protected virtual void Start()
+    {
+        Set_translation_values();
+    }
+
+    protected virtual void Update()
+    {
+        Set_translation_values();
+        Show_all_text();
+    }
+
+    // 텍스트 변수 초기화
+    protected void Init()
+    {
+        m_upgrade_button = transform.GetChild(1).GetComponent<Button>();
+        m_txt_price      = transform.GetChild(2).transform.GetChild(0).GetComponent<Text>();
+        m_txt_level      = transform.GetChild(3).transform.GetChild(0).GetComponent<Text>();
+    }
+
+    // 업그레이드 구매 레벨 250 이하
+    public void Purchase_upgrade()
+    {
+        if ((current_level + m_upgrade_multiplier) <= Global.max_upgrade_level)
+        {
+            if (Data_controller.instance.gold >= upgrade_price)
+            {
+                Update_price();
+                m_txt_price.text = Large_number.ToString(upgrade_price).ToString();
+            }
+            else
+                Upgrade_message_manager.instance.Start_coroutine_cant_purchase();
+        }
+        else
+            Upgrade_message_manager.instance.Start_coroutine_cant_upgrade();
+    }
+
+    // 번역해주는 변수들을 초기화
+    protected void Set_translation_values()
+    {
+        Csv_loader_manager inst = Csv_loader_manager.instance;
+        m_per_sec_translation   = inst[inst.Get_hash_code_by_str("PER_SECOND")].ToString();
+
+        if (current_level < Global.max_upgrade_level)
+            m_level_text_translation = inst[inst.Get_hash_code_by_str("LEVEL")].ToString() + " " + current_level + Global.max_upgrade_level.ToString();
+
+        else
+        {
+            m_level_text_translation = inst[inst.Get_hash_code_by_str("MAX_LEVEL")].ToString();
+            m_upgrade_button.enabled = false;
+        }
+    }
+
+    // 텍스트를 표시해주는 함수
+    void Show_all_text()
+    {
+        m_txt_level.text = m_level_text_translation;
+        m_txt_price.text = Large_number.ToString(upgrade_price).ToString();
+    }
+
+    // Updating price
+    protected virtual void Update_price()
+    {
+
+    }
+
+    // 업그레이드 비용 곱해주는 함수 레벨 250 찍을 시 버튼 비활성화
+    public void Upgrade_multiplier(int _value)
+    {
+        m_upgrade_multiplier = _value;
+        double sum_price = 0;
+
+        for (int i = 0; i < _value; i++)
+             sum_price += upgrade_price * Mathf.Pow(cost_pow, current_level + i);
+
+        upgrade_price = sum_price;
+    }
+}

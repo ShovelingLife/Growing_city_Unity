@@ -33,14 +33,14 @@ public class Object_pooling_manager : Singleton_local<Object_pooling_manager>
     }
 
     // 동전 생성해주는 오브젝트를 큐에 삽입함
-    public void InsertQueue_Coin(GameObject _coin)
+    public void Insert_queue_coin(GameObject _coin)
     {
         coin_Queue.Enqueue(_coin);
         _coin.SetActive(false);
     }  
 
     // 동전 생성해주는 오브젝트를 큐에서 꺼내옴
-    public GameObject GetQueue_Coin()
+    public GameObject Get_queue_coin()
     {
         GameObject coin = coin_Queue.Dequeue();
         coin.SetActive(true);

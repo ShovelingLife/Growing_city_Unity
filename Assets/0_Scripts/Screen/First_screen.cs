@@ -9,6 +9,7 @@ public class First_screen : MonoBehaviour
     {
         Audio_manager.instance.Play_city_sound();
     }
+
     public void NextScene()
     {
         SceneManager.LoadScene("MainGame");

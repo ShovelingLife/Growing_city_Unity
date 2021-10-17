@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Audio_manager : Singleton_local<Audio_manager>
+public class Audio_manager : Singleton_global<Audio_manager>
 {
     public AudioSource game_audio_source;
     public AudioSource effect_audio_source;
