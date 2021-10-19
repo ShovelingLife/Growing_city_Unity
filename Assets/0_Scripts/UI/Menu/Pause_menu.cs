@@ -13,24 +13,24 @@ public class Pause_menu : MonoBehaviour
 {
     // 전체 메뉴들을 가져옴
     [SerializeField]
-    GameObject[]      m_arr_main_menu_background;
-    [SerializeField]
-    GameObject[]      m_arr_menu;
+    GameObject[]            m_arr_main_menu_background;
+    public GameObject[]     arr_menu;
 
     // 현재 쓰여질 함수들
     Dictionary<int, Action> m_dic_menu_functions = new Dictionary<int, Action>();
 
     // 게임 데이터
-    string[]          m_arr_game_data = new string[6];
+    string[]                m_arr_game_data = new string[6];
 
     // 사운드 관련
-    public Image      audio_image;
-    public Sprite     sound_on_sprite;
-    public Sprite     sound_off_sprite;
-    bool              m_is_sound_on;
+    public Image            audio_image;
+    public Sprite           sound_on_sprite;
+    public Sprite           sound_off_sprite;
+    bool                    m_is_sound_on;
 
     // 기타 관련
-    public GameObject ms_seller_object;
+    public GameObject       ms_seller_object;
+
 
     private void Awake()
     {
@@ -93,13 +93,13 @@ public class Pause_menu : MonoBehaviour
 
         // 메뉴 버튼 초기화
         Transform buttons_parent = transform.GetChild(0);
-        m_arr_menu = new GameObject[buttons_parent.childCount];
+        arr_menu = new GameObject[buttons_parent.childCount];
 
-        for (int i = 0; i < m_arr_menu.Length; i++)
+        for (int i = 0; i < arr_menu.Length; i++)
         {
             // 오브젝트 설정 후 이벤트 설정
-            m_arr_menu[i] = buttons_parent.GetChild(i).gameObject;
-            m_arr_menu[i].GetComponent<Button>().onClick.AddListener(m_dic_menu_functions[i].Invoke);
+            arr_menu[i] = buttons_parent.GetChild(i).gameObject;
+            arr_menu[i].GetComponent<Button>().onClick.AddListener(m_dic_menu_functions[i].Invoke);
         }
     }
 
@@ -192,8 +192,8 @@ public class Pause_menu : MonoBehaviour
     public void Hide_all_buttons()
     {
         //Time.timeScale = 1f;
-        for (int i = 0; i < m_arr_menu.Length; i++)
-             m_arr_menu[i].SetActive(false);
+        for (int i = 0; i < arr_menu.Length; i++)
+             arr_menu[i].SetActive(false);
 
         m_arr_main_menu_background[0].SetActive(false);
         ms_seller_object.SetActive(true);
@@ -201,8 +201,8 @@ public class Pause_menu : MonoBehaviour
     public void Show_all_buttons()
     {
         //Time.timeScale = 0f;
-        for (int i = 0; i < m_arr_menu.Length; i++)
-             m_arr_menu[i].SetActive(true);
+        for (int i = 0; i < arr_menu.Length; i++)
+             arr_menu[i].SetActive(true);
 
         m_arr_main_menu_background[0].SetActive(true);
         ms_seller_object.SetActive(false);

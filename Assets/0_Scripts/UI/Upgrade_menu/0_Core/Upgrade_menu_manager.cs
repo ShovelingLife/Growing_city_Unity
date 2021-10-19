@@ -26,8 +26,8 @@ public class Upgrade_button_storage
 public class Upgrade_menu_manager : Singleton_local<Upgrade_menu_manager>
 {
     // 각 메뉴 버튼들 및 스크롤
-    Scroll_menu[]                 m_arr_menu        = null;
-    Button[]                      m_arr_menu_button = null;
+    Scroll_menu[]                  m_arr_menu        = null;
+    public Button[]                arr_menu_button = null;
     Dictionary<string, GameObject> m_dic_menu_obj = new Dictionary<string, GameObject>();
     bool m_is_opened = false;
     
@@ -51,15 +51,15 @@ public class Upgrade_menu_manager : Singleton_local<Upgrade_menu_manager>
         m_arr_menu         = GameObject.FindObjectsOfType<Scroll_menu>();
         m_arr_per_sec_core = GameObject.FindObjectsOfType<Upgrade_property_core>();
         int menu_size      = m_arr_menu.Length;
-        m_arr_menu_button  = new Button[menu_size];
+        arr_menu_button  = new Button[menu_size];
         
         // 버튼 추가
         for (int i = 0; i < menu_size; i++)
         {
-            m_arr_menu_button[i] = m_arr_menu[i].transform.GetChild(0).gameObject.GetComponent<Button>();
-            m_arr_menu_button[i].onClick.AddListener(Check_scrolling_direction);
+            arr_menu_button[i] = m_arr_menu[i].transform.GetChild(0).gameObject.GetComponent<Button>();
+            arr_menu_button[i].onClick.AddListener(Check_scrolling_direction);
             m_arr_menu[i].Init_obj();
-            m_dic_menu_obj.Add(m_arr_menu_button[i].name, m_arr_menu[i].scroll_menu_obj);
+            m_dic_menu_obj.Add(arr_menu_button[i].name, m_arr_menu[i].scroll_menu_obj);
         }
     }
 
@@ -125,14 +125,14 @@ public class Upgrade_menu_manager : Singleton_local<Upgrade_menu_manager>
     // 모든 메뉴 버튼들을 비활성화
     public void Deactivate_all_menu_buttons()
     {
-        foreach (var item in m_arr_menu_button)
+        foreach (var item in arr_menu_button)
                  item.gameObject.SetActive(false);
     }
 
     // 모든 메뉴 버튼들을 활성화
     public void Activate_all_menu_buttons()
     {
-        foreach (var item in m_arr_menu_button)
+        foreach (var item in arr_menu_button)
                  item.gameObject.SetActive(true);
     }
 

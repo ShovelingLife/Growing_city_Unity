@@ -7,30 +7,24 @@ using UnityEngine.UI;
 public class Tutorial_manager : Singleton_local<Tutorial_manager>
 {
     // ------- InGame Buttons -------
-    public Button[]   menu_button_arr = new Button[4];
-    public Button     exit_option_menu_button;
-    public Button     option_button;
-    public Button     go_to_next_map_button;
-    public GameObject language_button;
-    public GameObject close_language_menu_button;
-    public GameObject close_option_menu_button;
-    public GameObject move_to_next_map_button;
-    public GameObject move_to_first_map_button;
-    public GameObject crop_menu_button;
-    public GameObject crop_menu_first_upgrade_button;
+    Pause_menu        m_pause_menu;
+    public Button     btn_option;
+    public Transform  trans_language_btn;
+    public Transform  trans_close_option_menu_btn;
+    public Transform  trans_second_map_btn;
+    public Transform  trans_first_map_btn;
+    public Transform  trans_crop_menu_first_upgrade_btn;
 
     // ------- Another Variables -------
-    public GameObject mainUI_canvas;
-    public GameObject subUI_canvas;
-    public GameObject tutorial_text_panel;
-    public GameObject select_image;
-    public GameObject option_menu;
-    public GameObject language_menu;
+    public Canvas     canvas_mainUI;
+    public Canvas     canvas_subUI;
+    public GameObject obj_text_panel;
+    public Transform  trans_select_image;
     public GameObject crop_menu;
-    public Text       welcome_text;
-    public Text       building_text;
-    public Text       upgrading_text;
-    public Text       touch_screen_text;
+    public Text       txt_tutorial1;
+    public Text       txt_tutorial2;
+    public Text       txt_tutorial3;
+    public Text       txt_tutorial4;
     public static int step;
 
 
@@ -38,6 +32,11 @@ public class Tutorial_manager : Singleton_local<Tutorial_manager>
     {
         if (PlayerPrefs.HasKey("FirstTime")) 
             gameObject.SetActive(false);
+    }
+
+    private void Start()
+    {
+        m_pause_menu = GameObject.FindObjectOfType<Pause_menu>();
     }
 
     void Update()
@@ -50,93 +49,92 @@ public class Tutorial_manager : Singleton_local<Tutorial_manager>
     void Init_tutorial()
     {
         Vector3 new_pos = new Vector3();
+        Button btn_next_map = trans_second_map_btn.gameObject.GetComponent<Button>();
 
         switch (step)
         {
             case 0:
-                option_button.interactable = true;
-                go_to_next_map_button.interactable = false;
+                btn_option.interactable = true;
+                btn_next_map.interactable = false;
 
                 for (int i = 0; i < 4; i++)
-                {
-                    menu_button_arr[i].interactable = false;
-                }
+                     Upgrade_menu_manager.instance.arr_menu_button[i].interactable = false;
+
                 break;
 
             case 1:
-                this.transform.SetParent(option_menu.transform);
-                new_pos                              = language_button.transform.position;
-                new_pos.y                            += 1.5f;
-                select_image.transform.position      = new_pos;
-                exit_option_menu_button.interactable = false;
+                this.transform.SetParent(btn_option.transform);
+                new_pos                          = trans_language_btn.position;
+                new_pos.y                       += 1.5f;
+                trans_select_image.position      = new_pos;
+                m_pause_menu.arr_menu[0].GetComponent<Button>().interactable = false;
                 break;
 
             case 2:
-                this.transform.SetParent(language_menu.transform);
-                new_pos = close_option_menu_button.transform.position;
-                new_pos.y                            += 1.5f;
-                select_image.transform.position      = new_pos;
-                exit_option_menu_button.interactable = true;
+                this.transform.SetParent(trans_language_btn);
+                new_pos                     = trans_close_option_menu_btn.position;
+                new_pos.y                  += 1.5f;
+                trans_select_image.position = new_pos;
+                m_pause_menu.arr_menu[0].GetComponent<Button>().interactable = true;
                 break;
 
             case 3:
-                this.transform.SetParent(mainUI_canvas.transform);
-                new_pos                         = close_option_menu_button.transform.position;
-                new_pos.y                       += 1.5f;
-                select_image.transform.position = new_pos;
+                this.transform.SetParent(canvas_mainUI.transform);
+                new_pos                     = trans_close_option_menu_btn.position;
+                new_pos.y                  += 1.5f;
+                trans_select_image.position = new_pos;
                 break;
 
             case 4:
-                new_pos                            = move_to_next_map_button.transform.position;
-                new_pos.y                          += 1.5f;
-                go_to_next_map_button.interactable = true;
-                select_image.transform.position    = new_pos;
+                new_pos                         = trans_second_map_btn.position;
+                new_pos.y                      += 1.5f;
+                btn_next_map.interactable = true;
+                trans_select_image.position     = new_pos;
                 break;
 
             case 5:
-                this.transform.SetParent(subUI_canvas.transform);
-                new_pos                            = move_to_first_map_button.transform.position;
-                new_pos.y                          += 1.5f;
-                option_button.interactable         = false;
-                go_to_next_map_button.interactable = false;
-                select_image.transform.position    = new_pos;
+                this.transform.SetParent(canvas_subUI.transform);
+                new_pos                         = trans_first_map_btn.position;
+                new_pos.y                      += 1.5f;
+                btn_option.interactable         = false;
+                btn_next_map.interactable = false;
+                trans_select_image.position     = new_pos;
                 break;
 
             case 6:
-                this.transform.SetParent(mainUI_canvas.transform);
-                new_pos                         = crop_menu_button.transform.position;
-                new_pos.y                       += 2.5f;
-                menu_button_arr[0].interactable = true;
-                select_image.transform.position = new_pos;
+                this.transform.SetParent(canvas_mainUI.transform);
+                new_pos                     = m_pause_menu.arr_menu[0].transform.position;
+                new_pos.y                  += 2.5f;
+                Upgrade_menu_manager.instance.arr_menu_button[0].interactable = true;
+                trans_select_image.position = new_pos;
                 break;
 
             case 7:
-                this.transform.SetParent(crop_menu_first_upgrade_button.transform);
-                new_pos                         = crop_menu_first_upgrade_button.transform.position;
-                new_pos.y                       += 1.5f;
+                this.transform.SetParent(trans_crop_menu_first_upgrade_btn.transform);
+                new_pos                     = trans_crop_menu_first_upgrade_btn.position;
+                new_pos.y                  += 1.5f;
                 this.transform.SetParent(crop_menu.transform);
-                select_image.transform.position = new_pos;
+                trans_select_image.position = new_pos;
                 break;
 
             case 8:
-                this.transform.SetParent(mainUI_canvas.transform);
-                new_pos                         = mainUI_canvas.transform.position;
+                this.transform.SetParent(canvas_mainUI.transform);
+                new_pos                         = canvas_mainUI.transform.position;
                 new_pos.y                       += 5.25f;
                 new_pos.x                       += 0.5f;
-                select_image.transform.position = new_pos;
+                trans_select_image.position = new_pos;
                 break;
 
             case 9:
                 StopAllCoroutines();
                 PlayerPrefs.SetInt("FirstTime", 1);
                 PlayerPrefs.Save();
-                option_button.interactable          = true;
-                go_to_next_map_button.interactable  = true;
+                btn_option.interactable          = true;
+                btn_next_map.interactable        = true;
 
                 for (int i = 0; i < 4; i++)
-                {
-                    menu_button_arr[i].interactable = true;
-                }
+                     Upgrade_menu_manager.instance.arr_menu_button[i].interactable = true;
+
                 Destroy(this.gameObject);
                 break;
         }
@@ -148,40 +146,40 @@ public class Tutorial_manager : Singleton_local<Tutorial_manager>
         switch (step)
         {
             case 3:
-                tutorial_text_panel.SetActive(true);
-                welcome_text.enabled      = true;
-                building_text.enabled     = false;
-                upgrading_text.enabled    = false;
-                touch_screen_text.enabled = false;
+                obj_text_panel.SetActive(true);
+                txt_tutorial1.enabled      = true;
+                txt_tutorial2.enabled     = false;
+                txt_tutorial3.enabled    = false;
+                txt_tutorial4.enabled = false;
                 break;
 
             case 5: // 패널 위치를 sub canvas에서 조정
-                Vector2 new_panel_pos                  = subUI_canvas.transform.position;
+                Vector2 new_panel_pos                  = canvas_subUI.transform.position;
                 new_panel_pos.y                        += 10f;
-                tutorial_text_panel.SetActive(true);
-                tutorial_text_panel.transform.position = new_panel_pos;
-                welcome_text.enabled                   = false;
-                building_text.enabled                  = true;
+                obj_text_panel.SetActive(true);
+                obj_text_panel.transform.position = new_panel_pos;
+                txt_tutorial1.enabled                   = false;
+                txt_tutorial2.enabled                  = true;
                 break;
 
             case 6:
-                tutorial_text_panel.SetActive(true);
-                building_text.enabled                  = false;
-                upgrading_text.enabled                 = true;
-                tutorial_text_panel.transform.position = mainUI_canvas.transform.position;
+                obj_text_panel.SetActive(true);
+                txt_tutorial2.enabled                  = false;
+                txt_tutorial3.enabled                 = true;
+                obj_text_panel.transform.position = canvas_mainUI.transform.position;
                 break;
 
             case 8:
-                Vector3 new_pos                        = mainUI_canvas.transform.position;
+                Vector3 new_pos                        = canvas_mainUI.transform.position;
                 new_pos.y                              += 12.5f;
-                tutorial_text_panel.SetActive(true);
-                upgrading_text.enabled                 = false;
-                touch_screen_text.enabled              = true;
-                tutorial_text_panel.transform.position = new_pos;
+                obj_text_panel.SetActive(true);
+                txt_tutorial3.enabled                 = false;
+                txt_tutorial4.enabled              = true;
+                obj_text_panel.transform.position = new_pos;
                 break;
 
             default:
-                tutorial_text_panel.SetActive(false);
+                obj_text_panel.SetActive(false);
                 break;
         }
     }

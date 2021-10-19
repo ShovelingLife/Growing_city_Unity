@@ -32,6 +32,10 @@ using UnityEngine;
 // 23  EXIT
 // 24  YES	
 // 25  NO	
+// 26  TUTORIAL1
+// 27  TUTORIAL2
+// 28  TUTORIAL3
+// 29  TUTORIAL4
 
 public class Csv_loader_manager : Singleton_local<Csv_loader_manager>
 {

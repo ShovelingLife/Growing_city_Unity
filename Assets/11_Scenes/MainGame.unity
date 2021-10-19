@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_arr_main_menu_background: []
-  m_arr_menu: []
+  arr_menu: []
   audio_image: {fileID: 335329307}
   sound_on_sprite: {fileID: 21300000, guid: b38084635d70f4ab79ffe4aae48b7a2c, type: 3}
   sound_off_sprite: {fileID: 21300000, guid: 5f393014c067b4ee09b975d451aa3385, type: 3}
@@ -360,6 +360,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a42d3f64c953224e960cb0bd7b2acdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  arr_menu_button: []
   upgrade_button_storage:
     arr_crop_upgrade_button: []
     arr_city_upgrade_button: []
@@ -12114,7 +12115,7 @@ GameObject:
   - component: {fileID: 424358382}
   - component: {fileID: 424358381}
   m_Layer: 5
-  m_Name: BuildingMessageBox_text
+  m_Name: Tutorial_text2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12148,9 +12149,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 424358379}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ee4021ce59f313499a5cab041f02aba, type: 3}
+  m_Script: {fileID: 11500000, guid: a17518d5ab233314598140e8fb159613, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hash_table_key: tutorial2
 --- !u!114 &424358382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12184,9 +12186,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC5EC\uAE30\uC11C\uB294 \uBCF4\uB2E4 \uB354 \uBE60\uB974\uAC8C \uB3C8\uC744
-    \uD68D\uB4DD\uD560 \uC218 \uC788\uB294 \uAC74\uBB3C\uB4E4\uC744 \uAD6C\uB9E4\uD560
-    \uC218 \uC788\uB294 \uACF3\uC785\uB2C8\uB2E4."
+  m_Text: 
 --- !u!222 &424358383
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -60679,9 +60679,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 1486182969}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d4359ddd5805b54d91e7b64beeb3574, type: 3}
+  m_Script: {fileID: 11500000, guid: cd7b618ef5c23b84f95cb92258f56bb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  btn_option: {fileID: 1488428130}
+  trans_language_btn: {fileID: 657572218}
+  trans_close_option_menu_btn: {fileID: 1328158516}
+  trans_second_map_btn: {fileID: 1481169033}
+  trans_first_map_btn: {fileID: 816340977}
+  trans_crop_menu_first_upgrade_btn: {fileID: 1724940458}
+  canvas_mainUI: {fileID: 1347431063}
+  canvas_subUI: {fileID: 981284237}
+  obj_text_panel: {fileID: 1361129648}
+  trans_select_image: {fileID: 2083206000}
+  crop_menu: {fileID: 335348333}
+  txt_tutorial1: {fileID: 1979675365}
+  txt_tutorial2: {fileID: 424358382}
+  txt_tutorial3: {fileID: 1510475069}
+  txt_tutorial4: {fileID: 1925994909}
 --- !u!224 &1486182972
 RectTransform:
   m_ObjectHideFlags: 0
@@ -61501,7 +61516,7 @@ GameObject:
   - component: {fileID: 1510475069}
   - component: {fileID: 1510475068}
   m_Layer: 5
-  m_Name: UpgradeMessageBox_text
+  m_Name: Tutorial_text3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61516,9 +61531,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1510475067}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ee4021ce59f313499a5cab041f02aba, type: 3}
+  m_Script: {fileID: 11500000, guid: a17518d5ab233314598140e8fb159613, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hash_table_key: tutorial3
 --- !u!114 &1510475069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61552,8 +61568,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uD56D\uBAA9\uB4E4\uC744 \uC5C5\uADF8\uB808\uC774\uB4DC \uD558\uAE30 \uC704\uD574\uC120
-    \uBA54\uB274\uB97C \uC5EC\uC138\uC694."
+  m_Text: 
 --- !u!222 &1510475071
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -72168,7 +72183,7 @@ GameObject:
   - component: {fileID: 1925994909}
   - component: {fileID: 1925994908}
   m_Layer: 5
-  m_Name: TouchScreenMessageBox_text
+  m_Name: Tutorial_text4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -72202,9 +72217,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1925994906}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ee4021ce59f313499a5cab041f02aba, type: 3}
+  m_Script: {fileID: 11500000, guid: a17518d5ab233314598140e8fb159613, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hash_table_key: tutorial4
 --- !u!114 &1925994909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72238,8 +72254,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uBA54\uB274\uB97C \uB2EB\uACE0 \uB3C8\uC744 \uD68D\uB4DD\uD558\uAE30
-    \uC704\uD574 \uD654\uBA74\uC744 \uD130\uCE58\uD558\uC138\uC694."
+  m_Text: 
 --- !u!222 &1925994912
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -73564,7 +73579,7 @@ GameObject:
   - component: {fileID: 1979675365}
   - component: {fileID: 1979675363}
   m_Layer: 5
-  m_Name: WelcomeMessageBox_text
+  m_Name: Tutorial_text1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73598,9 +73613,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1979675361}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ee4021ce59f313499a5cab041f02aba, type: 3}
+  m_Script: {fileID: 11500000, guid: a17518d5ab233314598140e8fb159613, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hash_table_key: tutorial1
 --- !u!222 &1979675364
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -73642,9 +73658,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uAC11\uBD80\uAC00 \uBAA9\uD45C\uC778 \uAC8C\uC784 \uC131\uC7A5\uC758
-    \uB3C4\uC2DC\uC5D0 \uC624\uC2E0 \uAC83\uC744 \uD658\uC601\uD569\uB2C8\uB2E4.
-    \uD29C\uD1A0\uB9AC\uC5BC \uC2DC\uC791\uD558\uACA0\uC2B5\uB2C8\uB2E4."
+  m_Text: 
 --- !u!1 &1981242657
 GameObject:
   m_ObjectHideFlags: 0
