@@ -7,11 +7,11 @@ public class Shop_alert_manager : Singleton_local<Shop_alert_manager>
 {
     // 구매하기 위한 보석 부족
     GameObject m_not_enough_cash_obj;
-    Text m_txt_not_enough_cash;
+    Text       m_txt_not_enough_cash;
 
     // 보석 구매 완료
     GameObject m_purchase_complete_obj;
-    Text m_txt_purchase_complete;
+    Text       m_txt_purchase_complete;
 
 
     private void Start()

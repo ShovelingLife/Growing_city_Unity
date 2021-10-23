@@ -10,7 +10,7 @@ public class First_screen : MonoBehaviour
         Audio_manager.instance.Play_city_sound();
     }
 
-    public void NextScene()
+    public void Next_scene()
     {
         SceneManager.LoadScene("MainGame");
         Audio_manager.instance.Play_touch_sound();

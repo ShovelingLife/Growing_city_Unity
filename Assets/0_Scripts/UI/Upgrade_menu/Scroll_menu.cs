@@ -6,12 +6,12 @@ using DG.Tweening;
 public class Scroll_menu : MonoBehaviour
 {
     public GameObject scroll_menu_obj;
-    float                    m_original_pos_y = -1200f;
-    float                    m_new_pos_y      = -525f;
-    float                    m_time           = 1f;
-    public bool              is_closed        = true;
-    public int               index;
-    public int               hash_code;
+           float      m_original_posY = -1200f;
+           float      m_new_posY      = -525f;
+           float      m_time           = 1f;
+    public bool       is_closed        = true;
+    public int        index;
+    public int        hash_code;
 
 
     public void Init_obj()
@@ -22,14 +22,14 @@ public class Scroll_menu : MonoBehaviour
     // 스크롤을 올림
     public void Scrolling_menu_up()
     {
-        transform.DOLocalMoveY(m_new_pos_y, m_time);
+        transform.DOLocalMoveY(m_new_posY, m_time);
         is_closed = false;
     }
 
     // 스크롤을 내림
     public void Scrolling_menu_down()
     {
-        transform.DOLocalMoveY(m_original_pos_y, m_time);
+        transform.DOLocalMoveY(m_original_posY, m_time);
         Upgrade_menu_manager.instance.Set_scroll_at_original_pos(index);
         is_closed = true;
     }

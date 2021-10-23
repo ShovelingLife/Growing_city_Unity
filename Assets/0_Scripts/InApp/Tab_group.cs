@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Tab_group : MonoBehaviour
 {
-    List<Tab_button>        m_lst_tab_button = new List<Tab_button>();
+           List<Tab_button> m_lst_tab_button = new List<Tab_button>();
     public List<GameObject> lst_object_to_swap;
     public Sprite           tab_idle;
     public Sprite           tab_hover;

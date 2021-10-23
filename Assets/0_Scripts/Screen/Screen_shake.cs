@@ -7,25 +7,13 @@ public class Screen_shake : MonoBehaviour
     Transform m_target;
     Vector3   m_initial_pos;
     float     m_pending_shake_duration = 0f;
-    bool      m_is_shaking = false;
+    bool      m_is_shaking             = false;
 
-
-    private void Awake()
-    {
-        //Screen.orientation = ScreenOrientation.Portrait;
-    }
 
     void Start()
     {
         m_target = GetComponent<Transform>();
         m_initial_pos = m_target.localPosition;
-    }
-
-    // 화면을 흔듬
-    public void Shake(float _duration)
-    {
-        if (_duration > 0)
-            m_pending_shake_duration += _duration;
     }
 
     private void Update()
@@ -49,5 +37,12 @@ public class Screen_shake : MonoBehaviour
         m_pending_shake_duration = 0f;
         m_target.localPosition   = m_initial_pos;
         m_is_shaking             = false;
+    }
+
+    // 화면을 흔듬
+    public void Shake(float _duration)
+    {
+        if (_duration > 0)
+            m_pending_shake_duration += _duration;
     }
 }

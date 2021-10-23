@@ -10,9 +10,9 @@ public class Ms_seller : MonoBehaviour
     // 상인 아주머니 관련
     public GameObject     ms_seller_text_object;
     public Text           ms_seller_text;
-    float                 m_jump_power = 2f;
-    int                   m_jump_count = 0;
-    bool                  m_is_jumping = false;
+           float          m_jump_power = 2f;
+           int            m_jump_count = 0;
+           bool           m_is_jumping = false;
 
     // 일일 보상 상점 관련
     public GameObject     object_daily_shop;
@@ -20,19 +20,19 @@ public class Ms_seller : MonoBehaviour
     public Text           txt_current_time;
     public Text           txt_claim;
     [SerializeField]
-    Image[]               m_arr_daily_reward_item;
+           Image[]        m_arr_daily_reward_item;
     public Transform      daily_reward_parent;
     public Sprite         received_image;
     public Sprite         reset_image;
-    bool                  received = false;
+           bool           m_received = false;
 
     // 시간 관련
-    public Timer_settings timer_settings;
-    DateTime              m_time;
-    TimeSpan              m_time_span;
-    double                m_total_time = 0f;
-    int                   m_day = 0;
-    Csv_loader_manager    inst;
+    public Timer_settings     timer_settings;
+           DateTime           m_time;
+           TimeSpan           m_time_span;
+           double             m_total_time = 0f;
+           int                m_day = 0;
+           Csv_loader_manager inst;
 
 
     private void Awake()
@@ -50,7 +50,7 @@ public class Ms_seller : MonoBehaviour
              m_arr_daily_reward_item[i] = daily_reward_parent.GetChild(i).gameObject.GetComponent<Image>();
 
         // 보상 수령 했으면 꺼두기
-        if (received) 
+        if (m_received) 
             ms_seller_text_object.SetActive(false);
 
         if (m_day!=0) 
@@ -83,16 +83,6 @@ public class Ms_seller : MonoBehaviour
         ms_seller_text_object.SetActive(false);
     }
 
-    // 상점 아주머니가 말함
-    public void Ms_seller_talks(bool talk_ready)
-    {
-        if (!talk_ready)
-            StopCoroutine("IE_Ms_seller_talks");
-
-        else 
-            StartCoroutine("IE_Ms_seller_talks");
-    }
-
     // 시간을 설정하는 함수
     void Set_time()
     {
@@ -107,12 +97,12 @@ public class Ms_seller : MonoBehaviour
         m_time_span  = m_time - DateTime.UtcNow;
         m_total_time = m_time_span.TotalSeconds;
         m_day        = PlayerPrefs.GetInt("Reward_day");
-        received     = Convert.ToBoolean(PlayerPrefs.GetInt("Received"));
+        m_received     = Convert.ToBoolean(PlayerPrefs.GetInt("Received"));
     }
 
     private void FixedUpdate()
     {
-        if (!received)
+        if (!m_received)
         {
             Ms_seller_jump();
             Ms_seller_recovery();
@@ -121,7 +111,7 @@ public class Ms_seller : MonoBehaviour
 
     private void OnApplicationQuit()
     {
-        PlayerPrefs.SetInt("Received", Convert.ToInt32(received));
+        PlayerPrefs.SetInt("Received", Convert.ToInt32(m_received));
         PlayerPrefs.SetString("NewTime", m_time.ToString());
         PlayerPrefs.Save();
     }
@@ -197,7 +187,7 @@ public class Ms_seller : MonoBehaviour
 
         if (m_total_time < 0f)
         {
-            received   = false;
+            m_received   = false;
             m_time       = DateTime.Now;
             m_time       = m_time.AddDays(1);
             m_time_span  = m_time - DateTime.Now;
@@ -214,19 +204,10 @@ public class Ms_seller : MonoBehaviour
         object_daily_shop.SetActive(true);
     }
 
-    // 일일 상점을 닫아주는 함수
-    public void Close_daily_reward()
-    {
-        object_daily_shop.SetActive(false);
-        //Audio_manager.instance.Play_touch_sound();
-        Daily_reward_quantity();
-        Change_image();
-    }
-
     // 일일보상 몇개 획득하는지 판별해주는 함수
     void Daily_reward_quantity()
     {
-        if (received) 
+        if (m_received) 
             return;
 
         if (m_day == 8) 
@@ -245,7 +226,7 @@ public class Ms_seller : MonoBehaviour
         }
         m_day++;
         PlayerPrefs.SetInt("Reward_day", m_day);
-        received = true;
+        m_received = true;
     }
 
     // 메뉴 버튼들을 비활성화 해주는 함수
@@ -256,5 +237,24 @@ public class Ms_seller : MonoBehaviour
 
         else
             Upgrade_menu_manager.instance.Activate_all_menu_buttons();
+    }
+
+    // 일일 상점을 닫아주는 함수
+    public void Close_daily_reward()
+    {
+        object_daily_shop.SetActive(false);
+        //Audio_manager.instance.Play_touch_sound();
+        Daily_reward_quantity();
+        Change_image();
+    }
+
+    // 상점 아주머니가 말함
+    public void Ms_seller_talks(bool talk_ready)
+    {
+        if (!talk_ready)
+            StopCoroutine("IE_Ms_seller_talks");
+
+        else
+            StartCoroutine("IE_Ms_seller_talks");
     }
 }

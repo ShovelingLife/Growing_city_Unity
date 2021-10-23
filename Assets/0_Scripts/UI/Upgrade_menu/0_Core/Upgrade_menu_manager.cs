@@ -29,7 +29,7 @@ public class Upgrade_menu_manager : Singleton_local<Upgrade_menu_manager>
     Scroll_menu[]                  m_arr_menu        = null;
     public Button[]                arr_menu_button = null;
     Dictionary<string, GameObject> m_dic_menu_obj = new Dictionary<string, GameObject>();
-    bool m_is_opened = false;
+    bool                           m_is_opened = false;
     
     // 전체 초당 배열
     Upgrade_property_core[]       m_arr_per_sec_core;

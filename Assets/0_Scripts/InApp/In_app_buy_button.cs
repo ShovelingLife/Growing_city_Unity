@@ -5,10 +5,10 @@ using UnityEngine.UI;
 
 public class In_app_buy_button : MonoBehaviour
 {
-    In_app_manager     m_in_app_inst;
-    public e_item_type item_type;
-    public Text        txt_price;
-    string             txt_default;
+           In_app_manager     m_in_app_inst;
+    public e_item_type        item_type;
+    public Text               txt_price;
+           string             txt_default;
 
     private void Start()
     {

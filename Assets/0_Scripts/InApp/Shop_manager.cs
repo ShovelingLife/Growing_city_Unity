@@ -60,6 +60,52 @@ public class Shop_manager : Singleton_local<Shop_manager>
         };
     }
 
+    // 골드를 구매할 수 있는지 표시해주는 함수
+    void Buy_gold(string product_type)
+    {
+        Audio_manager.instance.Play_touch_sound();
+        m_cash_value = m_list_gold[product_type];
+
+        if (Data_controller.instance.cash > m_cash_value)
+        {
+            Shop_alert_manager.instance.Run_thanks_for_buying_alert();
+            Data_controller.instance.cash -= m_cash_value;
+            double gold = 0;
+
+            switch (product_type) // 아이템 종류별로 구매
+            {
+                case "small_amount_of_gold": gold = 250000; break;
+                case "medium_amount_of_gold": gold = 600000; break;
+                case "bag_of_gold": gold = 1300000; break;
+                case "chest_of_gold": gold = 2800000; break;
+            }
+            Data_controller.instance.gold += gold;
+        }
+        else
+            Shop_alert_manager.instance.Run_not_enough_cash_alert();
+    }
+
+    // 부스터를 구매할 수 있는지 표시해주는 함수
+    void Buy_booster(string product_type)
+    {
+        Audio_manager.instance.Play_touch_sound();
+        m_cash_value = m_list_item[product_type];
+
+        if (Data_controller.instance.cash > m_cash_value)
+        {
+            Shop_alert_manager.instance.Run_thanks_for_buying_alert();
+            Data_controller.instance.cash -= m_cash_value;
+
+            switch (product_type) // 아이템 종류별로 구매
+            {
+                case "booster_fifteen_minutes": Time_manager.instance.Set_gameplay_booster_values(false, 900f); break;
+                case "booster_thirty_minutes": Time_manager.instance.Set_gameplay_booster_values(false, 1800f); break;
+            }
+        }
+        else
+            Shop_alert_manager.instance.Run_not_enough_cash_alert();
+    }
+
     // 샵 메뉴 열음.
     public void Open_shop_menu()
     {
@@ -112,57 +158,11 @@ public class Shop_manager : Singleton_local<Shop_manager>
         Buy_booster("booster_thirty_minutes");
     }
 
-    // 골드를 구매할 수 있는지 표시해주는 함수
-    void Buy_gold(string product_type)
-    {
-        Audio_manager.instance.Play_touch_sound();
-        m_cash_value = m_list_gold[product_type];
-
-        if (Data_controller.instance.cash > m_cash_value)
-        {
-            Shop_alert_manager.instance.Run_thanks_for_buying_alert();
-            Data_controller.instance.cash -= m_cash_value;
-            double gold = 0;
-
-            switch (product_type) // 아이템 종류별로 구매
-            {
-                case "small_amount_of_gold":  gold = 250000;  break;
-                case "medium_amount_of_gold": gold = 600000;  break;
-                case "bag_of_gold":           gold = 1300000; break;
-                case "chest_of_gold":         gold = 2800000; break;
-            }
-            Data_controller.instance.gold += gold;
-        }
-        else 
-            Shop_alert_manager.instance.Run_not_enough_cash_alert();
-    }
-
-    // 부스터를 구매할 수 있는지 표시해주는 함수
-    void Buy_booster(string product_type)
-    {
-        Audio_manager.instance.Play_touch_sound();
-        m_cash_value = m_list_item[product_type];
-
-        if (Data_controller.instance.cash > m_cash_value)
-        {
-            Shop_alert_manager.instance.Run_thanks_for_buying_alert();
-            Data_controller.instance.cash -= m_cash_value;
-
-            switch (product_type) // 아이템 종류별로 구매
-            {
-                case "booster_fifteen_minutes": Time_manager.instance.Set_gameplay_booster_values(false, 900f);  break;
-                case "booster_thirty_minutes":  Time_manager.instance.Set_gameplay_booster_values(false, 1800f); break;
-            }
-        }
-        else 
-            Shop_alert_manager.instance.Run_not_enough_cash_alert();
-    }
-
     // 게임의 캐시를 추가해주는 함수
-    public void Add_cash(int cashBought)
+    public void Add_cash(int cash_bought)
     {
         Audio_manager.instance.Play_touch_sound();
         Shop_alert_manager.instance.Run_thanks_for_buying_alert();
-        Data_controller.instance.cash += cashBought;
+        Data_controller.instance.cash += cash_bought;
     }
 }

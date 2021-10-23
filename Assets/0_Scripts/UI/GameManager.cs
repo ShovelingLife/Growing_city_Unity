@@ -12,18 +12,18 @@ public class GameManager : MonoBehaviour
 {
     // 게임 관련
     public Screen_shake shaker;
-    public float        shakeDuration = 1f;
+    public float        shake_duration = 1f;
     // UI 관련
-    public GameObject   object_maxMoney;
-    public Text         txt_currentCash;
-    public Text         txt_currentCoin;
-    public Text         txt_currentBoost;
+    public GameObject   object_max_money;
+    public Text         txt_current_cash;
+    public Text         txt_current_coin;
+    public Text         txt_current_boost;
     public Text         txt_max_money;
 
 
     private void Awake()
     {
-        object_maxMoney.SetActive(false);
+        object_max_money.SetActive(false);
     }
 
     void Start()
@@ -58,9 +58,9 @@ public class GameManager : MonoBehaviour
     // 현재 보유하고 있는 화폐 출력
     void Show_current_text_UI()
     {
-        txt_currentBoost.text = Time_manager.instance.Gameplay_run_booster();
-        txt_currentCash.text  = Data_controller.instance.cash.ToString();
-        txt_currentCoin.text  = Large_number.ToString(Data_controller.instance.gold).ToString();
+        txt_current_boost.text = Time_manager.instance.Gameplay_run_booster();
+        txt_current_cash.text  = Data_controller.instance.cash.ToString();
+        txt_current_coin.text  = Large_number.ToString(Data_controller.instance.gold).ToString();
     }
 
     // 게임 플레이
@@ -79,7 +79,7 @@ public class GameManager : MonoBehaviour
 
         if (Data_controller.instance.gold < 1e36)
         {
-            shaker.Shake(shakeDuration);
+            shaker.Shake(shake_duration);
             Data_controller.instance.gold += Data_controller.instance.gold_per_click_gold;
             Data_controller.instance.gold += Data_controller.instance.gold_per_click_city;
             Object_pooling_manager.instance.Get_queue_coin();
@@ -96,9 +96,9 @@ public class GameManager : MonoBehaviour
     // 최대 보유 가능한 코인 초과 메시지 코루틴.
     IEnumerator Max_money_available()
     {
-        object_maxMoney.SetActive(true);
+        object_max_money.SetActive(true);
         yield return new WaitForSeconds(1.5f);
-        object_maxMoney.SetActive(false);
+        object_max_money.SetActive(false);
     }
 
     string Max_money_available_text_translation()

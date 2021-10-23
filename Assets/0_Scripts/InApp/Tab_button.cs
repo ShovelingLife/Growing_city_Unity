@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 [RequireComponent(typeof(Image))]
 public class Tab_button : MonoBehaviour,IPointerEnterHandler,IPointerClickHandler,IPointerExitHandler
 {
-    Tab_group        m_tab_group;
+           Tab_group m_tab_group;
     public Image     img_background;
 
 

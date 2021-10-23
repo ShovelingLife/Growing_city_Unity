@@ -134,19 +134,6 @@ public class Pause_menu : MonoBehaviour
         m_arr_main_menu_background[2].SetActive(true);
     }
 
-    public void Sure_to_quit_yes()
-    {
-        Audio_manager.instance.Play_touch_sound();
-        Application.Quit();
-    }
-
-    public void Sure_to_quit_no()
-    {
-        Audio_manager.instance.Play_touch_sound();
-        Hide_all_buttons();
-        m_arr_main_menu_background[2].SetActive(false);
-    }
-
     // 저장된 게임 불러오기
     void Load_game()
     {
@@ -189,6 +176,19 @@ public class Pause_menu : MonoBehaviour
         }
     }
 
+    public void Sure_to_quit_yes()
+    {
+        Audio_manager.instance.Play_touch_sound();
+        Application.Quit();
+    }
+
+    public void Sure_to_quit_no()
+    {
+        Audio_manager.instance.Play_touch_sound();
+        Hide_all_buttons();
+        m_arr_main_menu_background[2].SetActive(false);
+    }
+
     public void Hide_all_buttons()
     {
         //Time.timeScale = 1f;
@@ -198,6 +198,7 @@ public class Pause_menu : MonoBehaviour
         m_arr_main_menu_background[0].SetActive(false);
         ms_seller_object.SetActive(true);
     }
+
     public void Show_all_buttons()
     {
         //Time.timeScale = 0f;

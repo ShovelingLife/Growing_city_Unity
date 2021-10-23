@@ -8,14 +8,14 @@ using UnityEngine;
 public class Time_manager : Singleton_local<Time_manager>
 {
     public Save_manager save_manager;
-    public DateTime    new_time;
-    public DateTime    old_time;
-    public TimeSpan    gold_reward_time;
-    public double      sum_of_reward_time;
-    float              m_remaining_booster_minutes;
-    float              m_remaining_booster_seconds;
-    bool               m_is_booster_stopped;
-    public float       current_boostValue_gameplay;
+    public DateTime     new_time;
+    public DateTime     old_time;
+    public TimeSpan     gold_reward_time;
+    public double       sum_of_reward_time;
+           float        m_remaining_booster_minutes;
+           float        m_remaining_booster_seconds;
+           bool         m_is_booster_stopped;
+    public float        current_boostValue_gameplay;
 
 
     private void Awake()
