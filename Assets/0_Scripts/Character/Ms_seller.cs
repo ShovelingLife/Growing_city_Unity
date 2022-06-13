@@ -213,18 +213,8 @@ public class Ms_seller : MonoBehaviour
         if (m_day == 8) 
             m_day = 0;
 
-        switch (m_day)
-        {
-            case 0: Data_controller.instance.cash += 5;   break;                                                          
-            case 1: Data_controller.instance.cash += 10;  break;                                                          
-            case 2: Data_controller.instance.cash += 20;  break;                                                          
-            case 3: Data_controller.instance.cash += 35;  break;                                                          
-            case 4: Data_controller.instance.cash += 50;  break;                                                          
-            case 5: Data_controller.instance.cash += 65;  break;
-            case 6: Data_controller.instance.cash += 80;  break;
-            case 7: Data_controller.instance.cash += 100; break;
-        }
-        m_day++;
+        int[] arr_cash_val = { 5, 10, 20, 35, 50, 65, 80, 100 };
+        Data_controller.instance.cash += arr_cash_val[m_day++];
         PlayerPrefs.SetInt("Reward_day", m_day);
         m_received = true;
     }
